@@ -61,25 +61,25 @@
   background-position: -130px -210px;
 }
 #b::after{
-  background-image: url(../img/11129558056_d808717f9e_n.jpg);
+  background-image: url(../img/#icon.jpg);
 }
 #c::after{
-  background-image: url(../img/nypl.digitalcollections.510d47d9-6f09-a3d9-e040-e00a18064a99.001.r.jpg);
+  background-image: url(../img/#icon.jpg);
 }
 #d::after{
-  background-image: url(../img/alysa-bajenaru-IbFpBMs7XCo-unsplash.jpg);
+  background-image: url(../img/#icon.jpg);
 }
 #e::after{
-  background-image: url(../img/felipe-vieira-I-RjFIrs6Y8-unsplash.jpg);
+  background-image: url(../img/#icon.jpg);
 }
 #f::after{
-  background-image: url(../img/foodism360-1bfbAN9Kl-8-unsplash.jpg);
+  background-image: url(../img/#icon.jpg);
 }
 #g::after{
-  background-image: url(../img/watcharlie-zb7vvY5Z1sE-unsplash.jpg);
+  background-image: url(../img/#icon.jpg);
 }
 #h::after{
-  background-image: url(../img/tamas-tuzes-katai-CU3zdbz31xA-unsplash.jpg);
+  background-image: url(../img/#icon.jpg);
 }
 .Gcontent:hover::after{
   transform: scale(1.5);

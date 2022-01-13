@@ -291,3 +291,11 @@ section{
     background-attachment:fixed;
     color: #fff;
 }
+
+.pc{ display:block;}
+.sp{ display:none;}
+
+@media only screen and (max-width:828px;){
+	.pc{ display:none;}
+	.sp{ display:block;}
+}

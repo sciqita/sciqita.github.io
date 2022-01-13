@@ -30,9 +30,6 @@ main{
   display: flex;
   flex-wrap: wrap;
 }
-.flex p{
-  margin: 0 0em 1em 3em;
-}
 
 .flex.profile{ justify-content: center;}
 .flex.profile .flex{
@@ -130,7 +127,7 @@ a{
 p{
     text-align: left;
     font-size: 1.2em;
-    margin: 0 3em 1em 3em;
+    margin: 0 0em 1em 3em;
 }
 ::selection {
     background: #e8fcfc;

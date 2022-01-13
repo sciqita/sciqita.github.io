@@ -1,0 +1,89 @@
+/*contents*/
+.contentsGlid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 238px);
+  grid-auto-rows: 238px;
+  padding: 0 3em;
+  margin: auto;
+  max-width: 1000px;
+  min-width: 476px;
+  /*justify-content: center;
+  background-color: #666;*/
+}
+.Gcontent{
+  width: 238px;
+  height: 238px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 2;
+}
+.Gcontent div{
+  margin: 25px;
+  padding: 10px;
+  width: 166px;
+  height: 166px;
+  background-color: rgba(255,255,255,0.6);
+  color: #252525;
+  opacity: 0;
+  border: #fff 1px solid;
+  transition: .3s;
+}
+.Gcontent div p{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  left: 50%;
+}
+.Gspan2 .Gcontent{
+  width: 477px;
+}
+.Gspan2 .Gcontent div{
+  width: 405px;
+}
+.Gcontent::after{
+  content: "";
+  position: absolute;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transition: 2.5s cubic-bezier(0, 0.55, 0.8, 1.00);;
+}
+#a::after{
+  background-image: url(../img/kitae-kim-mTKRLyuR9WA-unsplash.png);
+  background-size: 810px;
+  background-position: -130px -210px;
+}
+#b::after{
+  background-image: url(../img/11129558056_d808717f9e_n.jpg);
+}
+#c::after{
+  background-image: url(../img/nypl.digitalcollections.510d47d9-6f09-a3d9-e040-e00a18064a99.001.r.jpg);
+}
+#d::after{
+  background-image: url(../img/alysa-bajenaru-IbFpBMs7XCo-unsplash.jpg);
+}
+#e::after{
+  background-image: url(../img/felipe-vieira-I-RjFIrs6Y8-unsplash.jpg);
+}
+#f::after{
+  background-image: url(../img/foodism360-1bfbAN9Kl-8-unsplash.jpg);
+}
+#g::after{
+  background-image: url(../img/watcharlie-zb7vvY5Z1sE-unsplash.jpg);
+}
+#h::after{
+  background-image: url(../img/tamas-tuzes-katai-CU3zdbz31xA-unsplash.jpg);
+}
+.Gcontent:hover::after{
+  transform: scale(1.5);
+}
+.Gcontent:hover div{
+  opacity: 1;
+}

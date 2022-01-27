@@ -297,6 +297,10 @@ section{
 		min-width:unset;
 		width:100%;
 	}
+	.TopView{
+		min-height: 100vh; /* Fallback */
+		min-height: calc(var(--vh, 1vh) * 100);
+	}
   .title{ top:50%; left:50%; transform: translate(-50%, -50%);}
   .padding-left{padding-left: 100px;}
   p, .profileIcon{ margin: 0 0 1em 0}

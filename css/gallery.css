@@ -87,3 +87,22 @@
 .Gcontent:hover div{
   opacity: 1;
 }
+
+@media only screen and (max-width:414px){
+  .padding-left{
+    padding: 0 3em;
+  }
+  .contentsGlid{
+    /*width: calc(100% - 3em);*/
+    min-width: 280px;
+    padding: 0;
+    grid-auto-rows: 140px;
+    grid-template-columns:repeat(auto-fill, 140px);
+  }
+  .Gcontent{   width: 140px;
+    height: 140px
+  }
+  .Gcontent>div{
+    display: none;
+  }
+}

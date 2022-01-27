@@ -295,7 +295,7 @@ section{
 .pc{ display:block;}
 .sp{ display:none;}
 
-@media only screen and (max-width:828px;){
+@media only screen and (max-width:414px;){
 	.pc{ display:none;}
 	.sp{ display:block;}
 }

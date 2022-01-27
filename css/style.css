@@ -292,20 +292,21 @@ section{
     color: #fff;
 }
 
-@media only screen and (max-width:414px;){
+@media only screen and (max-width:414px){
 	body{
 		min-width:unset;
 		width:100%;
 	}
-	.menu-bg, .bookmarker nav{
-		display:none;
-	}
+  .title{ top:50%; left:50%; transform: translate(-50%, -50%);}
+  .padding-left{padding-left: 100px;}
+  p, .profileIcon{ margin: 0 0 1em 0}
+  .NOTHING{ padding-left: 3em;}
 }
 
 .pc{ display:block;}
 .sp{ display:none;}
 
-@media only screen and (max-width:414px;){
+@media only screen and (max-width:414px){
 	.pc{ display:none;}
 	.sp{ display:block;}
 }

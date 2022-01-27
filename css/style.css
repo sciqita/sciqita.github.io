@@ -297,7 +297,7 @@ section{
 		min-width:unset;
 		width:100%;
 	}
-	.TopView{
+	.TopImg{
 		min-height: 100vh; /* Fallback */
 		min-height: calc(var(--vh, 1vh) * 100);
 	}

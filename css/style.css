@@ -292,7 +292,7 @@ section{
     color: #fff;
 }
 
-@media only screen and (max-width:414px){
+@media only screen and (max-width:750px){
 	body{
 		min-width:unset;
 		width:100%;
@@ -310,7 +310,7 @@ section{
 .pc{ display:block;}
 .sp{ display:none;}
 
-@media only screen and (max-width:414px){
+@media only screen and (max-width:750px){
 	.pc{ display:none;}
 	.sp{ display:block;}
 }

@@ -44,7 +44,7 @@ main{
     position: fixed;
     top: 0px;
     left: 40px;
-    background-color: ##556575;
+    background-color: #556575;
     mix-blend-mode: hard-light;
     backdrop-filter: blur(4px);
 }

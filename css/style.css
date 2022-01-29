@@ -283,9 +283,17 @@ section{
 	opacity:.5;
     top: 0;
 }
+.parallaxParent#parallax1 div::after{
+	content: "";
+	background-color:#560000;
+}
+.parallaxParent#parallax2 div::after{
+	content: "";
+	background-color:#005626;
+}
 .parallaxParent#parallax3 div::after{
 	content: "";
-	background-color:;
+	background-color:#050056;
 }
 
 .parallaxParent h2{

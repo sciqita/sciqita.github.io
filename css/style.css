@@ -112,7 +112,7 @@ header{
 
 footer{
   position: fixed;
-  bottom: 1em;
+  bottom: 1.4em;
   left: 40px;
   mix-blend-mode: difference;
   z-index: 10;

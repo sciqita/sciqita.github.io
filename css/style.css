@@ -317,10 +317,10 @@ section{
   .NOTHING{ padding-left: 3em;}
 }
 {
-.pc{ display:block;}
-.sp{ display:none;}
+.pc{ display:block!important;}
+.sp{ display:none!important;}
 
 @media only screen and (max-width:750px){
-	.pc{ display:none;}
-	.sp{ display:block;}
+	.pc{ display:none!important;}
+	.sp{ display:block!important;}
 }

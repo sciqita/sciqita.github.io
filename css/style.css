@@ -316,11 +316,11 @@ section{
 	.flex.profile{ align-content: center; align-items: center; flex-direction: column;}
   .NOTHING{ padding-left: 3em;}
 }
-{
+
 .pc{ display:block;}
-.sp{ display:none;}
+.sp{ display:none!important;}
 
 @media only screen and (max-width:750px){
 	.pc{ display:none!important;}
-	.sp{ display:block!important;}
+	.sp{ display:block;}
 }

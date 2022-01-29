@@ -125,6 +125,9 @@ a{
     text-decoration: none;
     display: block;
 }
+a:hover{
+	color: #7096a5;
+}
 p{
     text-align: left;
     font-size: 1.2em;

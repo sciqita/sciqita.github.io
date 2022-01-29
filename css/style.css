@@ -317,8 +317,8 @@ section{
   .NOTHING{ padding-left: 3em;}
 }
 {
-.pc{ display:block!important;}
-.sp{ display:none!important;}
+.pc{ display:block;}
+.sp{ display:none;}
 
 @media only screen and (max-width:750px){
 	.pc{ display:none!important;}

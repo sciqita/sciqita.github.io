@@ -285,15 +285,15 @@ section{
 }
 .parallaxParent#parallax1 div::after{
 	content: "";
-	background-color:#560000;
+	background-color:#556575;
 }
 .parallaxParent#parallax2 div::after{
 	content: "";
-	background-color:#005626;
+	background-color:#556575;
 }
 .parallaxParent#parallax3 div::after{
 	content: "";
-	background-color:#050056;
+	background-color:#556575;
 }
 
 .parallaxParent h2{
@@ -323,7 +323,7 @@ section{
     background-attachment:fixed;
     color: #fff;
 	background-blend-mode: multiply;
-    background-color: #81879f;
+    background-color: #556575;
 }
 
 @media only screen and (max-width:750px){

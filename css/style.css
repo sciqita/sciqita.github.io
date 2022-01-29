@@ -22,7 +22,7 @@ main{
   background-color: #aaa;
 }
 .profileIcon{
-  background-image: url(img/profileIcon.g);
+  background-image: url(../img/profileIcon.g);
   width: 140px; height: 140px;
   margin: 0 0em 1em 3em;
 	border-radius: 50%;

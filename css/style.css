@@ -304,12 +304,11 @@ section{
 	}
   .title{ top:45%; left:50%; transform: translate(-50%, -50%);}
   .padding-left{padding-left: 100px;}
-  p{ margin: 0 0 1em 0}
+  p, .profileIcon{ margin: 0 0 1em 0}
+	.flex.profile{ align-content: center; align-items: center; flex-direction: column;}
   .NOTHING{ padding-left: 3em;}
 }
 {
-@media only screen and (max-width:721px).profileIcon{ margin: 0 0 1em 0}
-}
 .pc{ display:block;}
 .sp{ display:none;}
 

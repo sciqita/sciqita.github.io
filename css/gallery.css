@@ -57,8 +57,6 @@
 }
 #a::after{
   background-image: url(../img/gallery/drawing_1.png);
-  background-size: 810px;
-  background-position: -130px -210px;
 }
 #b::after{
   background-image: url(../img/gallery/drawing_2.png);

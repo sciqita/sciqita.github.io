@@ -124,6 +124,7 @@ a{
     color: #888;
     text-decoration: none;
     display: block;
+	transition:.3s;
 }
 a:hover{
 	color: #7096a5;

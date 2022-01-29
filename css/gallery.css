@@ -56,15 +56,15 @@
   transition: 2.5s cubic-bezier(0, 0.55, 0.8, 1.00);;
 }
 #a::after{
-  background-image: url(../img/drawing-1.jpeg);
+  background-image: url(../img/drawing_1.png);
   background-size: 810px;
   background-position: -130px -210px;
 }
 #b::after{
-  background-image: url(../img/drawing-2.jpeg);
+  background-image: url(../img/drawing_2.png);
 }
 #c::after{
-  background-image: url(../img/drawing-3.jpeg);
+  background-image: url(../img/drawing_3.png);
 }
 #d::after{
   background-image: url(../img/#icon.jpg);

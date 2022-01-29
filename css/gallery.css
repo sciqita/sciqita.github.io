@@ -56,15 +56,15 @@
   transition: 2.5s cubic-bezier(0, 0.55, 0.8, 1.00);;
 }
 #a::after{
-  background-image: url(../img/kitae-kim-mTKRLyuR9WA-unsplash.png);
+  background-image: url(../img/drawing-1.jpeg);
   background-size: 810px;
   background-position: -130px -210px;
 }
 #b::after{
-  background-image: url(../img/#icon.jpg);
+  background-image: url(../img/drawing-2.jpeg);
 }
 #c::after{
-  background-image: url(../img/#icon.jpg);
+  background-image: url(../img/drawing-3.jpeg);
 }
 #d::after{
   background-image: url(../img/#icon.jpg);

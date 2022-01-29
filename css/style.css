@@ -263,6 +263,7 @@ section{
 .parallaxParent {
     height: 70vh;
     overflow: hidden;
+	position:relative;
 }
 .parallaxParent > * {
     height: 140%;
@@ -273,6 +274,20 @@ section{
     background-repeat:no-repeat;
 
 }
+.parallaxParent div::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+	opacity:.5;
+    top: 0;
+}
+.parallaxParent#parallax3 div::after{
+	content: "";
+	background-color:;
+}
+
 .parallaxParent h2{
   font-family: "Gill Sans", sans-serif;
     font-size: 36px;

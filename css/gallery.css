@@ -56,30 +56,30 @@
   transition: 2.5s cubic-bezier(0, 0.55, 0.8, 1.00);;
 }
 #a::after{
-  background-image: url(../img/drawing_1.png);
+  background-image: url(../img/gallery/drawing_1.png);
   background-size: 810px;
   background-position: -130px -210px;
 }
 #b::after{
-  background-image: url(../img/drawing_2.png);
+  background-image: url(../img/gallery/drawing_2.png);
 }
 #c::after{
-  background-image: url(../img/drawing_3.png);
+  background-image: url(../img/gallery/drawing_3.png);
 }
 #d::after{
-  background-image: url(../img/#icon.jpg);
+  background-image: url(../img/gallery/#icon.jpg);
 }
 #e::after{
-  background-image: url(../img/#icon.jpg);
+  background-image: url(../img/gallery/#icon.jpg);
 }
 #f::after{
-  background-image: url(../img/#icon.jpg);
+  background-image: url(../img/gallery/#icon.jpg);
 }
 #g::after{
-  background-image: url(../img/#icon.jpg);
+  background-image: url(../img/gallery/#icon.jpg);
 }
 #h::after{
-  background-image: url(../img/#icon.jpg);
+  background-image: url(../img/gallery/#icon.jpg);
 }
 .Gcontent:hover::after{
   transform: scale(1.5);

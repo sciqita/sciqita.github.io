@@ -22,7 +22,7 @@ main{
 .profileIcon{
   background-image: url(../img/profileIcon.jpg);
   width: 140px; height: 140px;
-  margin: 0 0em 1em 3em;
+  margin: 0 1em 1em 3em;
 	border-radius: 50%;
 }
 .flex{
@@ -336,7 +336,7 @@ section{
 	}
   .title{ top:45%; left:50%; transform: translate(-50%, -50%);}
   .padding-left{padding-left: 100px;}
-  p, .profileIcon{ margin: 0 0 1em 0}
+  p, .profileIcon{ margin: 0 1em 1em 0}
 	.flex.profile{ align-content: center; align-items: center; flex-direction: column;}
   .NOTHING{ padding-left: 3em;}
 }

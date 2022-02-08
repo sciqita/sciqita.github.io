@@ -260,7 +260,7 @@ section{
 
 /*about*/
 .parallaxParent {
-    height: 50vh;
+    height: 34vh;
     overflow: hidden;
 	position:relative;
 }

@@ -109,13 +109,13 @@
         var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
         var controller3 = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "145%"}});
         new ScrollMagic.Scene({triggerElement: "#parallax1"})
-            .setTween("#parallax1 > div", {y: "0%", ease: Linear.easeNone})
+            .setTween("#parallax1 > div", {y: "100%", ease: Linear.easeNone})
             .addTo(controller);
         new ScrollMagic.Scene({triggerElement: "#parallax2"})
-            .setTween("#parallax2 > div", {y: "40%", ease: Linear.easeNone})
+            .setTween("#parallax2 > div", {y: "100%", ease: Linear.easeNone})
             .addTo(controller);
         new ScrollMagic.Scene({triggerElement: "#parallax3"})
-            .setTween("#parallax3 > div", {y: "60%", ease: Linear.easeNone})
+            .setTween("#parallax3 > div", {y: "100%", ease: Linear.easeNone})
             .addTo(controller3);
     </script>
     <div class="NOTHING">

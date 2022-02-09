@@ -42,7 +42,7 @@ main{
     position: fixed;
     top: 0px;
     left: 40px;
-    background-color: #556575;
+    background-color: #39444e;
     mix-blend-mode: hard-light;
     backdrop-filter: blur(4px);
 }
@@ -303,7 +303,10 @@ section{
     margin-left: 1em;
     font-weight: normal;
     text-align: left;
-}
+    height: fit-content;
+    position: absolute;
+    top: calc(80% - 36px);
+    transform: translateY(-50%);}
 
 .about-content{
   max-width: 900px;

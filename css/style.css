@@ -267,7 +267,7 @@ section{
 .parallaxParent > * {
     height: 140%;
     position: relative;
-    top: -80%;
+    top: -70%;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;

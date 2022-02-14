@@ -12,6 +12,7 @@
   <script type='text/javascript' src="./js/jquery-3.6.0.slim.min.js"></script>
   <script type='text/javascript' src="./js/lightbox.min.js"></script>
   <script type='text/javascript' src="./js/masonry.pkgd.min.js"></script>
+  <script type='text/javascript' src="js/imagesloaded.pkgd.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
 </head>
 <body align="center">
@@ -49,11 +50,16 @@
   <footer>©&thinsp;sevensquared</footer>
 </div>
 <script type='text/javascript'>
-  $('.grid').masonry({
-    // options
-    itemSelector: '.grid-item',
-    columnWidth: '.grid-item',
-    horizontalOrder: true
+  $(function () {
+    var $container = $('.grid');   //コンテナ
+    $container.imagesLoaded(function(){
+      $container.masonry({
+        // options
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-item',
+        horizontalOrder: true
+      });
+    });
   });
 </script>
 </body>

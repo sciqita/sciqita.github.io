@@ -24,7 +24,30 @@
 }
 */
 @media only screen and (max-width:750px){
-  .grid-item {
-  	width: 100%;
-  }
+	.padding-left{padding-left: 0px;}
+  .grid-item {width: 100%;}
+}
+
+
+.categoryBtn{
+  position:relative;
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+.categoryBtn div{
+  padding:.5em 1em;
+  margin:0 1em;
+  background:pink;
+  filter: grayscale(1);
+  width: calc((100% - 12em ) / 3);
+  cursor:pointer;
+}
+.categoryBtn div#btnAll {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.categoryBtn div.active{
+  filter: grayscale(0);
+  color:#fff;
 }

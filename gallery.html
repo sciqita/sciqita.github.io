@@ -28,7 +28,7 @@
               <li><a href="gallery.html">gallery</a></li>
               <li><a href="project.html">project</a></li>
               <li><a href="index.html#contact">contact</a></li>
-                </ul></nav>
+            </ul></nav>
     </div>
     <div class="padding-left">
     <div id="titlechart">
@@ -40,15 +40,21 @@
             </p>
         </div>
     </div>
-
-    <div class="grid">
-        <div class="grid-item"><img src="img/gallery/drawing_1.png"></div>
-        <div class="grid-item"><img src="img/gallery/drawing_2.png"></div>
-        <div class="grid-item"><img src="img/gallery/drawing_3.png"></div>
+    <div class="categoryBtn">
+    <div id="btnAll" class="active">button0</div>
+    <div id="btnOrgn" class="active">button1</div>
+    <div id="btnFncy" class="active">button2</div>
+    <div id="btnAntq" class="active">button3</div>
+    </div>
+    <div class="grid" id="GalleryImgs">
+        <div class="grid-item imgOrgn"><img src="img/gallery/drawing_1.png"></div>
+        <div class="grid-item imgOrgn"><img src="img/gallery/drawing_2.png"></div>
+        <div class="grid-item imgOrgn"><img src="img/gallery/drawing_3.png"></div>
     </div>
   </div>
   <footer>©&thinsp;sevensquared</footer>
 </div>
+<script type='text/javascript' src="js/categoryChange.js"></script>
 <script type='text/javascript'>
   $(function () {
     var $container = $('.grid');   //コンテナ

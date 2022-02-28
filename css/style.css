@@ -103,10 +103,8 @@ header{
   position: relative;
 }
 .SectionNo{
-    position: relative;
-    float: right;
+    position: absolute;
     right: 50px;
-    top: 0px;
 }
 
 footer{

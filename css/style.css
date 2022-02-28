@@ -101,7 +101,6 @@ header{
 }
 #titlechart{
   position: relative;
-  padding: 0 1em;
 }
 .SectionNo{
     position: relative;
@@ -344,6 +343,11 @@ section{
 	.flex.profile{ align-content: center; align-items: center; flex-direction: column;}
   .NOTHING{ padding-left: 3em;
     background-attachment:scroll;}
+
+    #titlechart{
+      padding: 0 1em;
+    }
+
 }
 
 .pc{ display:block;}

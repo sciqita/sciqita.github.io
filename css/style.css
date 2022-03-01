@@ -187,8 +187,8 @@ p{
   border: solid 3px #fffe;
   width: 90%;
   height: 90%;
-  top: 5%;
-  left: 5%;
+  top: calc(5% - 3px);
+  left: calc(5% - 3px);
 }
 .scrolldown{
 	position:absolute;

@@ -162,13 +162,14 @@ p{
 /*000*/
 .title{
   padding: 1em;
-  font-size: 3em;
-  margin: auto;
-  color: #555;
-  position: absolute;
-  background: #fffd;
-  top: calc(50% - 2em);
-  left: calc(50% - 2.2em);
+font-size: 3em;
+margin: auto;
+color: #555;
+position: absolute;
+background: #fffd;
+top: calc(50% - 2em);
+left: calc(50%);
+transform: translate(-50%);
 }
 .TopView{
   position: relative;

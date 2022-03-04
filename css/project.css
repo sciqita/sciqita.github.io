@@ -32,6 +32,11 @@
 	font-size: 1.2em;
 }
 .projectedBy a img{
-	width: 20em;
+	width: auto;
 	height: 75px;
+}
+
+.NOTHING.prjIG{
+	background-image: url(../img/#.png);
+	background-position: left top;
 }

@@ -255,22 +255,72 @@ section{
 .topGallery a div{
   right:  calc(50% - 450px);
 }
+/*contents*/
+.content-group{
+  margin: 0 3em;}
+.content-type{
+  max-width: 900px;
+  height: 400px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.content-bg{
+  background: #8bbfbf;
+  width: 60%;
+  height: 60%;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.content-bg#bg01{
+  background: url(../img/watcharlie-zb7vvY5Z1sE-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.content-bg#bg02{
+  background: url(../img/foodism360-1bfbAN9Kl-8-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.content-bg-filter{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  height: 75%;
+  background: #ffffff;
+  mix-blend-mode: exclusion;
+  filter: drop-shadow(2px 3px 3px #878787);
+  opacity: .8;
+  transition: .3s ease-in-out;
+}
+.content-bg-filter:hover{
+  background: #000;
+}
 
-.prjct{
-  width: 90%; height: 300px;
-  background-position: center;
-  background-size: 100%;
-  transition: .3s ease-in;
+.content-item{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90%;
+  height: 90%;
+  pointer-events: none;
 }
-#topProjectImg1{
-  background-image: url(img/);
+.content-item>img{
+  position: absolute;
+  left: 2em;
+  top: 0;
 }
-#topProjectImg2{
-  background-image: url(img/);
-}
-.prjct:hover{
-  background-size: 120%;
-}
+.content-item-txt{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em;
+  font-size: 1.7em;
+  text-align: right;
+  }
 
 /*about*/
 .parallaxParent {

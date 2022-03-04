@@ -36,26 +36,33 @@ document.onclick = function() {
   if(btnOrgn.classList.contains("active") == true) {
     for(i=0;i<imgOrgn.length;i++){
       imgOrgn[i].style.display = "block";
-    }} else {
-    for(i=0;i<imgOrgn.length;i++){
-      imgOrgn[i].style.display = "none";
-    }}
-};
-document.onclick = function() {
-  if(btnFncy.classList.contains("active") == true) {
-    for(i=0;i<imgFncy.length;i++){
-      imgFncy[i].style.display = "block";
-    }} else {
+    }
     for(i=0;i<imgFncy.length;i++){
       imgFncy[i].style.display = "none";
-    }}
-};
-document.onclick = function() {
-  if(btnAntq.classList.contains("active") == true) {
-    for(i=0;i<imgAntq.length;i++){
-      imgAntq[i].style.display = "block";
-    }} else {
+    }
     for(i=0;i<imgAntq.length;i++){
       imgAntq[i].style.display = "none";
-    }}
+    }
+  } else if (btnFncy.classList.contains("active") == true) {
+    for(i=0;i<imgFncy.length;i++){
+      imgFncy[i].style.display = "block";
+    }
+    for(i=0;i<imgOrgn.length;i++){
+      imgOrgn[i].style.display = "none";
+    }
+    for(i=0;i<imgAntq.length;i++){
+      imgAntq[i].style.display = "none";
+    }
+  }
+    else if (btnAntq.classList.contains("active") == true) {
+      for(i=0;i<imgAntq.length;i++){
+        imgAntq[i].style.display = "block";
+      }
+      for(i=0;i<imgOrgn.length;i++){
+        imgOrgn[i].style.display = "none";
+      }
+      for(i=0;i<imgFncy.length;i++){
+        imgFncy[i].style.display = "none";
+      }
+    }
 };

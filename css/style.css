@@ -256,6 +256,21 @@ section{
   right:  calc(50% - 450px);
 }
 
+.prjct{
+  width: 90%; height: 300px;
+  background-position: center;
+  background-size: 100%;
+  transition: .3s ease-in;
+}
+#topProjectImg1{
+  background-image: url(img/);
+}
+#topProjectImg2{
+  background-image: url(img/);
+}
+.prjct:hover{
+  background-size: 120%;
+}
 
 /*about*/
 .parallaxParent {

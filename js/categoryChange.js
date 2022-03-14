@@ -1,11 +1,11 @@
-let btnAll = document.getElementById("btnAll");
-let btnOrgn = document.getElementById("btnOrgn");
-let btnFncy = document.getElementById("btnFncy");
-let btnAntq = document.getElementById("btnAntq");
-let imgs = document.getElementById("GalleryImgs");
-let imgOrgn = document.getElementsByClassName("imgOrgn");
-let imgFncy = document.getElementsByClassName("imgFncy");
-let imgAntq = document.getElementsByClassName("imgAntq");
+let btnAll = document.querySelector("#btnAll");
+let btnOrgn = document.querySelector("#btnOrgn");
+let btnFncy = document.querySelector("#btnFncy");
+let btnAntq = document.querySelector("#btnAntq");
+let imgs = document.querySelector("#GalleryImgs");
+let imgOrgn = document.querySelectorAll(".imgOrgn");
+let imgFncy = document.querySelectorAll(".imgFncy");
+let imgAntq = document.querySelectorAll(".imgAntq");
 
 btnAll.onclick = function() {
 	btnAll.classList.add("active")

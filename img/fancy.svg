@@ -1,1 +1,19 @@
-<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80"><defs><style>.cls-1{fill:#90c2f4;}.cls-2{fill:#fff;}.cls-3{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:1.49px;}</style></defs><rect class="cls-1" width="300" height="80"/><path class="cls-2" d="M56,36.41A9.41,9.41,0,0,1,65.41,27H79.64v-.59A9.41,9.41,0,0,0,70.23,17H55.41A9.41,9.41,0,0,0,46,26.41V53.59A9.41,9.41,0,0,0,55.41,63H56Z"/><path class="cls-2" d="M200.41,27h14.23v-.59A9.41,9.41,0,0,0,205.23,17H190.41A9.41,9.41,0,0,0,181,26.41V53.59A9.41,9.41,0,0,0,190.41,63h14.82a9.41,9.41,0,0,0,9.41-9.41V53H200.41A9.41,9.41,0,0,1,191,43.59V36.41A9.41,9.41,0,0,1,200.41,27Z"/><rect class="cls-3" x="24" y="4" width="252" height="72" rx="9.29"/><circle class="cls-2" cx="11.5" cy="40" r="7"/><circle class="cls-2" cx="69" cy="40" r="3.5"/><path class="cls-2" d="M122.88,21.15a9.38,9.38,0,0,0-7.8-4.15H100.25a9.42,9.42,0,0,0-9.4,9.41V53.59a9.4,9.4,0,0,0,9.4,9.41h.6V36.41a9.34,9.34,0,0,1,1.88-5.63,6.48,6.48,0,0,1,9.87,0,9.33,9.33,0,0,1,1.89,5.63V63h.59a9.41,9.41,0,0,0,9.41-9.41V26.41A9.39,9.39,0,0,0,122.88,21.15Z"/><path class="cls-2" d="M167.88,21.15a9.38,9.38,0,0,0-7.8-4.15H145.25a9.42,9.42,0,0,0-9.4,9.41V53.59a9.4,9.4,0,0,0,9.4,9.41h.6V36.41a9.34,9.34,0,0,1,1.88-5.63,6.48,6.48,0,0,1,9.87,0,9.33,9.33,0,0,1,1.89,5.63V63h.59a9.41,9.41,0,0,0,9.41-9.41V26.41A9.39,9.39,0,0,0,167.88,21.15Z"/><circle class="cls-2" cx="288.5" cy="40" r="7"/><circle class="cls-2" cx="12" cy="57" r="4"/><circle class="cls-2" cx="107.67" cy="40" r="4"/><circle class="cls-2" cx="289" cy="57" r="4"/><circle class="cls-2" cx="12" cy="23" r="4"/><circle class="cls-2" cx="289" cy="23" r="4"/><path class="cls-2" d="M242.44,26.07c-15-18.11-27.16-5.95-9.05,9h0c3.47,2.64,4.05,8.08,4.05,10.27v8.44a9.4,9.4,0,0,0,9.41,9.4h.59V45.39c0-2.19.59-7.63,4.06-10.27h0C269.61,20.12,257.44,8,242.44,26.07Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 300 80" style="enable-background:new 0 0 300 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#90C2F4;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:1.49;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+</style>
+<rect y="0" class="st0" width="300" height="80"/>
+<path class="st1" d="M33.3,4h233.4c5.1,0,9.3,4.2,9.3,9.3v53.4c0,5.1-4.2,9.3-9.3,9.3H33.3c-5.1,0-9.3-4.2-9.3-9.3V13.3
+	C24,8.2,28.2,4,33.3,4z"/>
+<circle class="st2" cx="11.5" cy="40" r="7"/>
+<circle class="st2" cx="288.5" cy="40" r="7"/>
+<circle class="st2" cx="12" cy="57" r="4"/>
+<circle class="st2" cx="289" cy="57" r="4"/>
+<circle class="st2" cx="12" cy="23" r="4"/>
+<circle class="st2" cx="289" cy="23" r="4"/>
+</svg>

@@ -1,4 +1,14 @@
-
+.pTitle{
+  padding: 1em;
+font-size: 2em;
+font-family: "Osaka-Mono",sans-serif;
+margin: auto;
+color: #fff;
+position: absolute;
+top: calc(50% - 2em);
+left: calc(50%);
+transform: translate(-50%);
+}
 
 .conceptArea{
 	height: 500px;

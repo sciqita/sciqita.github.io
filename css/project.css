@@ -50,3 +50,54 @@ transform: translate(-50%);
 	background-image: url(../img/#.png);
 	background-position: left top;
 }
+
+
+.codeTxtObj{
+  position:relative;
+}
+.codeTxtObj::after{content:"";transform:scaleY(0);}
+.codeTxtObj p{
+  width: 0;
+  overflow:hidden;
+  height:1.2em;
+  padding-bottom:.5em;
+  margin:0 0 0 .5em;
+}
+.codeTxtObj.codeTxt::after{
+  position:absolute;
+  top:0;
+  left:-.5em;
+  width:5px;
+  height:100%;
+  background:#000;
+  transition:ease-out;
+  animation-name:lineTtoB;
+  animation-duration:.5s;
+  animation-fill-mode:forwards;
+}
+@keyframes lineTtoB{
+  from {
+    transform:scaleY(0);
+    transform-origin:top;
+  }
+  to {
+    transform:scaleY(1);
+    transform-origin:top;
+
+  }
+}
+.codeTxtObj.codeTxt p{
+  animation-name:textLtoR;
+  animation-delay: .1s;
+  animation-duration:.8s;
+  animation-fill-mode:forwards;
+  transition:ease-out;
+  }
+@keyframes textLtoR{
+  from {
+    width:0;
+  }
+  to {
+    width:20em;
+  }
+}

@@ -24,7 +24,7 @@ function fadeupAnime(){
 }
 function codeTxtAnime(){
   $(".codeTxtObj").each(function(){
-    let elemPos = $(this).offset().top+100;
+    let elemPos = $(this).offset().top+50;
     let scroll = $(window).scrollTop();
     let windowHeight = $(window).height();
     if(scroll>=elemPos-windowHeight){

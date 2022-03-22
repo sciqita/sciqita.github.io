@@ -22,7 +22,18 @@ function fadeupAnime(){
     }
   });
 }
-
+function codeTxtAnime(){
+  $(".codeTxtObj").each(function(){
+    let elemPos = $(this).offset().top+100;
+    let scroll = $(window).scrollTop();
+    let windowHeight = $(window).height();
+    if(scroll>=elemPos-windowHeight){
+      $(this).addClass("codeTxt");
+    } else{
+      $(this).removeClass("codeTxt");
+    }
+  });
+}
 // 動きのきっかけの起点となるアニメーションの名前を定義
 function BgFadeAnime(){
     // 背景色が伸びて出現（左から右）
@@ -53,9 +64,11 @@ $(window).scroll(function(){
   fadeInAnime();
   fadeupAnime();
   BgFadeAnime();
+  codeTxtAnime();
 });
 $(window).on('load', function(){
   fadeInAnime();
   fadeupAnime();
   BgFadeAnime();
+  codeTxtAnime();
 });

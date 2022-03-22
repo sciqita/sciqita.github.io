@@ -1,3 +1,6 @@
+#pTopImg{
+  background: #15212e;
+}
 .pTitle{
   padding: 1em;
 font-size: 2em;
@@ -11,7 +14,7 @@ transform: translate(-50%);
 }
 
 .conceptArea{
-	height: 500px;
+	height: 600px;
 }
 .conceptTxt{
 	width: 50%;
@@ -21,7 +24,7 @@ transform: translate(-50%);
 }
 .conceptImg{
 	width: 45%;
-	height: 500px;
+	height: 600px;
 	background: aquamarine;
 	display: block;
 	position: absolute;
@@ -62,6 +65,8 @@ transform: translate(-50%);
   height:1.2em;
   padding-bottom:.5em;
   margin:0 0 0 .5em;
+  color: #fff;
+  mix-blend-mode: soft-light;
 }
 .codeTxtObj.codeTxt::after{
   position:absolute;
@@ -69,11 +74,12 @@ transform: translate(-50%);
   left:-.5em;
   width:5px;
   height:100%;
-  background:#000;
+  background:#fff;
   transition:ease-out;
   animation-name:lineTtoB;
   animation-duration:.5s;
   animation-fill-mode:forwards;
+  mix-blend-mode: soft-light;
 }
 @keyframes lineTtoB{
   from {

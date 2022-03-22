@@ -33,6 +33,7 @@ transform: translate(-50%);
 .copyArea{
 	height: calc(100vh - 200px);
 	max-width: unset;
+  position: relative;
 }
 
 
@@ -50,7 +51,6 @@ transform: translate(-50%);
 	background-image: url(../img/#.png);
 	background-position: left top;
 }
-
 
 .codeTxtObj{
   position:relative;
@@ -83,7 +83,6 @@ transform: translate(-50%);
   to {
     transform:scaleY(1);
     transform-origin:top;
-
   }
 }
 .codeTxtObj.codeTxt p{
@@ -100,4 +99,8 @@ transform: translate(-50%);
   to {
     width:20em;
   }
+}
+
+.codeTxtContainer{
+  position: absolute;
 }

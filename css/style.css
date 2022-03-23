@@ -401,10 +401,11 @@ section{
 		min-height: 100vh; /* Fallback */
 		min-height: calc(var(--vh, 1vh) * 100);
 	}
-  .title{ top:45%; left:50%; transform: translate(-50%, -50%);}
-  .padding-left{padding-left: 100px;}
+  .title{ top:45%; left:50%; transform: translate(-50%, -50%);font-size: 2;}
+  .padding-left{ padding: 100px 50px;}
   p, .profileIcon{ margin: 0 0em 1em 0}
 	.flex.profile{ align-content: center; align-items: center; flex-direction: column;}
+  .content-group{margin: 0;}
   .NOTHING{ padding-left: 3em;
     background-attachment:scroll;}
 

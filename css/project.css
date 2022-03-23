@@ -4,7 +4,7 @@
 .pTitle{
   padding: 1em;
 font-size: 2em;
-font-family: "Osaka-Mono",sans-serif;
+font-family: "Osaka-Mono", "Osaka−等幅",sans-serif;
 margin: auto;
 color: #fff;
 position: absolute;

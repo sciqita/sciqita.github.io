@@ -266,19 +266,19 @@ section{
 }
 .content-bg{
   background: #8bbfbf;
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
   top: 0;
   right: 0;
   position: absolute;
 }
 .content-bg#bg01{
-  background: url(../img/watcharlie-zb7vvY5Z1sE-unsplash.jpg);
+  background: url(../img/yoav-aziz-QqcAtcxbUnM-unsplash.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
 .content-bg#bg02{
-  background: url(../img/foodism360-1bfbAN9Kl-8-unsplash.jpg);
+  background: url(../img/yoav-aziz-QqcAtcxbUnM-unsplash.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -408,10 +408,10 @@ section{
   .content-group{margin: 0;}
   .NOTHING{ padding-left: 3em;
     background-attachment:scroll;}
-
-    #titlechart{
+  #titlechart{
       padding: 0 1em;
     }
+  .content-bg-filter:hover{background: #ffffff;}
 
 }
 

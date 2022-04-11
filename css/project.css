@@ -21,6 +21,7 @@ transform: translate(-50%);
 	text-align: left;
 	position: absolute;
   bottom: 100px;
+  overflow-wrap:anywhere;
 }
 .conceptImg{
 	width: 45%;
@@ -107,4 +108,14 @@ transform: translate(-50%);
 
 .codeTxtContainer{
   position: absolute;
+}
+
+
+@media only screen and (max-width:750px){
+  section{padding: 100px 2em;}
+  .conceptImg{
+    width: 100%; left: 0;
+  }
+  .conceptTxt{ width: 70%;}
+  .NOTHING.prjIG{ padding: unset;}
 }

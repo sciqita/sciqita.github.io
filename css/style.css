@@ -409,7 +409,7 @@ section{
   #titlechart{
       padding: 0 1em;
     }
-  .content-bg{background-attachment: inherit;}
+  .content-bg{background-attachment: unset;}
   .content-bg-filter:hover{background-color: #ffffff;}
 
 }

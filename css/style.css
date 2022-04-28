@@ -277,9 +277,9 @@ section{
   background-size: cover;
 }
 #bg01{
-  background: url(../img/yoav-aziz-QqcAtcxbUnM-unsplash.jpg);}
+  background-image: url(../img/yoav-aziz-QqcAtcxbUnM-unsplash.jpg);}
 #bg02{
-  background: url(../img/yoav-aziz-QqcAtcxbUnM-unsplash.jpg);}
+  background-image: url(../img/yoav-aziz-QqcAtcxbUnM-unsplash.jpg);}
 .content-bg-filter{
   position: absolute;
   bottom: 0;
@@ -409,9 +409,8 @@ section{
   #titlechart{
       padding: 0 1em;
     }
-    .content-bg{background-attachment: inherit;}
-  .content-bg-filter:hover{background: #ffffff;}
-
+  .content-bg{background-attachment: inherit;}
+  .content-bg-filter:hover{background-color: #ffffff;}
 
 }
 

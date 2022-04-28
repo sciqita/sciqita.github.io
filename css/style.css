@@ -272,16 +272,14 @@ section{
   right: 0;
   position: absolute;
 }
-.content-bg#bg01{
-  background: url(../img/yoav-aziz-QqcAtcxbUnM-unsplash.jpg);
+.content-bg{
   background-attachment: fixed;
   background-size: cover;
 }
-.content-bg#bg02{
-  background: url(../img/yoav-aziz-QqcAtcxbUnM-unsplash.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-}
+#bg01{
+  background: url(../img/yoav-aziz-QqcAtcxbUnM-unsplash.jpg);}
+#bg02{
+  background: url(../img/yoav-aziz-QqcAtcxbUnM-unsplash.jpg);}
 .content-bg-filter{
   position: absolute;
   bottom: 0;
@@ -411,8 +409,9 @@ section{
   #titlechart{
       padding: 0 1em;
     }
+    .content-bg{background-attachment: inherit;}
   .content-bg-filter:hover{background: #ffffff;}
-  
+
 
 }
 

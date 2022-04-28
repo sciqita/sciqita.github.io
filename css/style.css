@@ -290,6 +290,7 @@ section{
   opacity: .8;
   transition: .3s ease-in-out;
   perspective: 1000;
+  -webkit-perspective: 1000;
 }
 .content-bg-filter:hover{
   background-color: #000;

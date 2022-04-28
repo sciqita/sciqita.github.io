@@ -404,8 +404,8 @@ section{
   .NOTHING{ padding-left: 3em;
     background-attachment:scroll;}
   #titlechart{padding: 0 1em;}
-  .content-bg{z-index: 1; background-attachment: unset; }
-  .content-bg-filter{ mix-blend-mode: unset;}
+  .content-bg{ background-attachment: unset; }
+  .content-bg-filter{ }
   .content-bg-filter:hover{  background-color: #fff;}
 }
 

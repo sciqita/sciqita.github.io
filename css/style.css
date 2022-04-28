@@ -265,14 +265,11 @@ section{
   margin-bottom: 100px;
 }
 .content-bg{
-  background: #8bbfbf;
   width: 70%;
   height: 70%;
   top: 0;
   right: 0;
   position: absolute;
-}
-.content-bg{
   background-attachment: fixed;
   background-size: cover;
 }
@@ -286,16 +283,15 @@ section{
   left: 0;
   width: 90%;
   height: 75%;
-  background-color: #ffffff;
+  background-color: #fff;
   mix-blend-mode: exclusion;
   filter: drop-shadow(2px 3px 3px #878787);
   opacity: .8;
   transition: .3s ease-in-out;
 }
 .content-bg-filter:hover{
-  background: #000;
+  background-color: #000;
 }
-
 .content-item{
   position: absolute;
   bottom: 0;
@@ -407,9 +403,8 @@ section{
   .NOTHING{ padding-left: 3em;
     background-attachment:scroll;}
   #titlechart{padding: 0 1em;}
-  .content-bg{background-attachment: unset;}
-  .content-bg-filter:hover{background-color: #ffffff;}
-
+  .content-bg-filter{  background-attachment: unset;}
+  .content-bg-filter:hover{  background-color: #fff;}
 }
 
 .pc{ display:block;}

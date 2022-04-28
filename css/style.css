@@ -286,7 +286,7 @@ section{
   left: 0;
   width: 90%;
   height: 75%;
-  background: #ffffff;
+  background-color: #ffffff;
   mix-blend-mode: exclusion;
   filter: drop-shadow(2px 3px 3px #878787);
   opacity: .8;
@@ -406,9 +406,7 @@ section{
   .content-group{margin: 0;}
   .NOTHING{ padding-left: 3em;
     background-attachment:scroll;}
-  #titlechart{
-      padding: 0 1em;
-    }
+  #titlechart{padding: 0 1em;}
   .content-bg{background-attachment: unset;}
   .content-bg-filter:hover{background-color: #ffffff;}
 

@@ -270,7 +270,6 @@ section{
   top: 0;
   right: 0;
   position: absolute;
-  background-color: pink;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -408,7 +407,7 @@ section{
     background-attachment:scroll;}
   #titlechart{padding: 0 1em;}
   .content-bg{ background-attachment: unset; }
-  .content-bg-filter{/*mix-blend-mode: unset;*/background-color: #fff; }
+  .content-bg-filter{mix-blend-mode: unset; background-color: #fff; }
   .content-bg-filter:hover{ background-color: #fff;}
 }
 

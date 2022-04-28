@@ -291,7 +291,7 @@ section{
   transition: .3s ease-in-out;
   perspective: 1000;
   -webkit-perspective: 1000;
-  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;/*perspectiveだけでも良かった。backfaceだけで大丈夫かは確認してない*/
 }
 .content-bg-filter:hover{
   background-color: #000;
@@ -408,7 +408,7 @@ section{
     background-attachment:scroll;}
   #titlechart{padding: 0 1em;}
   .content-bg{ background-attachment: unset; }
-  .content-bg-filter{mix-blend-mode: unset; background-color: #fff; }
+  .content-bg-filter{/*mix-blend-mode: unset;*/background-color: #fff; }
   .content-bg-filter:hover{ background-color: #fff;}
 }
 

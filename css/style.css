@@ -291,6 +291,7 @@ section{
   transition: .3s ease-in-out;
   perspective: 1000;
   -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
 }
 .content-bg-filter:hover{
   background-color: #000;

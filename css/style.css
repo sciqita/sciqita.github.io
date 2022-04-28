@@ -405,8 +405,8 @@ section{
     background-attachment:scroll;}
   #titlechart{padding: 0 1em;}
   .content-bg{ background-attachment: unset; }
-  .content-bg-filter{ }
-  .content-bg-filter:hover{ ;}
+  .content-bg-filter{mix-blend-mode: exclusion; }
+  .content-bg-filter:hover{ background-color: #fff;}
 }
 
 .pc{ display:block;}

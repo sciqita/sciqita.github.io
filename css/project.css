@@ -1,3 +1,7 @@
+::selection {
+    background: #000;
+    color: #fff;
+}
 #pTopImg{
   background: #15212e;
 }
@@ -26,7 +30,7 @@ transform: translate(-50%);
 .conceptImg{
 	width: 45%;
 	height: 600px;
-	background: aquamarine;
+	background-image: url(../img/pIG/internetghost.PNG);
 	display: block;
 	position: absolute;
 	top: 100px;

@@ -30,7 +30,8 @@ transform: translate(-50%);
 .conceptImg{
 	width: 45%;
 	height: 600px;
-	background-image: url(../img/pIG/internetghost.PNG);
+	background-image: ;
+  background-position: center;
 	display: block;
 	position: absolute;
 	top: 100px;
@@ -43,7 +44,30 @@ transform: translate(-50%);
 	max-width: unset;
   position: relative;
 }
-
+.copyAreaBG{
+  width: 100%; height: 100%;
+  background-image: url(../img/pIG/internetGhost.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 64%;
+  mix-blend-mode: plus-lighter;
+  animation:blurAnime 10s ease infinite;
+  }
+@keyframes blurAnime{
+  0% {filter: blur(11px);transform: translateY(-5px);}
+  10% {filter: blur(0px);}
+  5% {filter: blur(2px);}
+  10% {filter: blur(0px);}
+  20% {filter: blur(2px);}
+  30% {filter: blur(0px);transform: translateY(10px)}
+  32% {filter: blur(3px);}
+  40% {filter: blur(0px);}
+  50% {filter: blur(3px);}
+  60% {filter: blur(0px);transform: translateY(6px)}
+  70% {filter: blur(3px);}
+  90% {filter: blur(0px);transform: translateY(0px)}
+  100% {filter: blur(10px);transform: translateY(-5px)}
+}
 
 .projectedBy{
 	text-align: center;

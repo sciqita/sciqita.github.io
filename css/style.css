@@ -5,6 +5,7 @@ body{
     align-content: center;
     font-family: "Gill Sans", sans-serif;
     color: #888;
+    min-height: 100vh;
 }
 .clearfix::after {
     content: "";

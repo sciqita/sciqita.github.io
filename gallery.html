@@ -45,22 +45,23 @@
         <div class="grid-item imgOrgn"><img src="img/gallery/drawing_2.png"></div>
         <div class="grid-item imgOrgn"><img src="img/gallery/drawing_3.png"></div>
     </div>
+    <script type="text/javascript">
+      $('.grid-item').click(
+        function() {
+        $(this).addClass('active');
+        $('.bgOverlay').addClass('active');
+      });
+      $('.bgOverlay').click(
+        function(){
+          $(this).removeClass('active');
+          $('.grid-item').removeClass('active');
+      });
+    </script>
+
   </div>
   <footer>©&thinsp;sevensquared</footer>
 </div>
 <script type='text/javascript' src="js/categoryChange.js"></script>
-<script type="text/javascript">
-  $('.grid-item').click(
-    function() {
-    $(this).addClass('active');
-    $('.bgOverlay').addClass('active');
-  });
-  $('.bgOverlay').click(
-    function(){
-      $(this).removeClass('active');
-      $('.grid-item').removeClass('active');
-  });
-</script>
 </body>
 </html>
 

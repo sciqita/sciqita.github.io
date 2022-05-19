@@ -32,8 +32,9 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: auto;
+	max-width: 100%;
+	min-height: 250px;
+	object-fit: cover;
 }
 
 .grid-item.active{
@@ -49,6 +50,7 @@
 	max-height: 80vh;
 	max-width: 80vw;
 	z-index: 100;
+	position: fixed;
 }
 .bgOverlay.active{
 	content: "";
@@ -76,12 +78,6 @@
 }
 @media only screen and (max-width:375px){
   .grid-item {width: 100%;}
-	.grid-item img {
-		max-width: 100%;
-		min-height: 250px;
-		object-fit: cover;
-	}
-
 }
 
 .categoryBtn{

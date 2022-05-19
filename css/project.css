@@ -2,6 +2,9 @@
     background: #000;
     color: #fff;
 }
+.scrolldown{
+  mix-blend-mode: normal;
+}
 #pTopImg{
   background: #15212e;
 }
@@ -15,6 +18,12 @@ position: absolute;
 top: calc(50% - 2em);
 left: calc(50%);
 transform: translate(-50%);
+}
+.pTitle.p000{
+  position: absolute;
+  top: 25%;
+  transform: translateX(50%);
+  left: 0;
 }
 
 .conceptArea{
@@ -38,7 +47,12 @@ transform: translate(-50%);
 	right: 100px;
 	z-index: -1;
 }
-
+.grid.p000 .grid-item{
+  height: 180px;
+}
+.grid.p000 .grid-item img {
+  	min-height: 180px;
+}
 .copyArea{
 	height: calc(100vh - 200px);
 	max-width: unset;

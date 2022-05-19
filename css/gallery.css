@@ -2,6 +2,10 @@
 * {
 	box-sizing: border-box;
 }
+.padding-left{
+	max-width: 1600px;
+	margin: auto;
+}
 .grid{
 	display: flex;
 	flex-wrap: wrap;
@@ -59,13 +63,13 @@
 }
 
 
-/*
-@media only screen and (min-width:751px) and (max-width:980px){
+
+@media only screen and (min-width:1421px){
   .grid-item {
-  	width: 50%;
+  	width: 25%;
   }
 }
-*/
+
 @media only screen and (max-width:750px){
 	.padding-left{padding: 0px;}
   .grid-item {width: 50%;}

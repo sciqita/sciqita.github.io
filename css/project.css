@@ -165,3 +165,78 @@ transform: translate(-50%);
   .conceptTxt{ width: 70%;}
   .NOTHING.prjIG{ padding: unset;}
 }
+
+
+
+/*cast*/
+.charas{
+  max-width: 1000px;
+  height: 80vh;
+  overflow: hidden;
+  background: aliceblue;
+}
+.charaL{
+  width: 200px;
+  border-right: solid 2px #878787;
+}
+.charaL h2{
+  margin: 0;
+}
+.charaL p{
+  text-align: center;
+  margin: 0;
+  margin-bottom: 0.4em;
+}
+.charali{
+  /*width: 250px;*/
+  width: 94%;
+  height: 80vh;
+  overflow: scroll;
+  background: #666;
+  padding-right: 7px;
+}
+.charali>div{
+  background-color: #ddd;
+  height: 250px;
+  margin: 10px;
+  padding-top: 12px;
+  display: block;
+  cursor: pointer;
+}
+.charali div .imgwrap{
+  background-color: #fff;
+  height: 205px;
+  width: 85%;
+  /*width: 205px;*/
+  margin: 12px auto;
+  margin-top: 0;
+}
+.imgwrap#L{
+  background:;
+}
+.imgwrap#L:hover{
+  background:#000;
+}
+
+.charaR{
+  position: relative;
+}
+#previewarea{
+  max-width: 600px;
+}
+.overTxt{
+  position: absolute;
+  background: rgba(255,255,255,0.75);
+  padding: 10px;
+  text-align: left;
+  word-wrap: break-word;
+  max-width: 300px;
+}
+#textarea1{
+  top: 7%;
+  left: 10%;
+}
+#textarea2{
+  bottom: 7%;
+  right: 10%;
+}

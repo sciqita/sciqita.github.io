@@ -43,24 +43,13 @@
       </section>
 
       <section class="chara">
-            <h2 class="" style="overflow-wrap:anywhere;">111</h2>
-            <div class="grid p000">
-              <div class="bgOverlay"></div>
-                <div class="grid-item"><img src="img/gallery/drawing_1.png"></div>
-                <div class="grid-item"><img src="img/gallery/drawing_2.png"></div>
-                <div class="grid-item"><img src="img/gallery/drawing_3.png"></div>
-            </div>
-
-      </section>
-
-      <section class="story">
           <div>
             <h2 class="" style="overflow-wrap:anywhere;">222</h2>
-            <div class="cast padding-left">
-              <div class ="storyL">
+            <div class="charas">
+              <div class ="charaL">
               <h2>LIST</h2>
               <p>scroll and view</p>
-              <div class="castli">
+              <div class="charali">
               <div id="L">
                 LLL
               </div>
@@ -78,7 +67,7 @@
               </div>
               </div>
             </div>
-            <div class="storyR">
+            <div class="charaR">
               <img src="#" id="previewarea">
               <div class="overTxt" id="textarea1"></div>
               <div class="overTxt" id="textarea2"></div>
@@ -104,18 +93,24 @@
 
     <footer>©&thinsp;sevensquared.</footer>
     <script src="./js/scrollAnime.js"></script>
-    <script type="text/javascript">
-      $('.grid-item').click(
-        function() {
-        $(this).addClass('active');
-        $('.bgOverlay').addClass('active');
-      });
-      $('.bgOverlay').click(
-        function(){
-          $(this).removeClass('active');
-          $('.grid-item').removeClass('active');
-      });
+    <script>
+    document.getElementById("L").onclick = function() {
+      document.getElementById("previewarea").src = "img/p000/#";
+    };
+    document.getElementById("R").onclick = function() {
+      document.getElementById("previewarea").src = "img/p000/#";
+    };
+    document.getElementById("0").onclick = function() {
+      document.getElementById("previewarea").src = "img/p000/#";
+    };
+    document.getElementById("M").onclick = function() {
+      document.getElementById("previewarea").src = "img/p000/#";
+    };
+    document.getElementById("D").onclick = function() {
+      document.getElementById("previewarea").src = "img/p000/#";
+    };
     </script>
+
 </body>
 </html>
 

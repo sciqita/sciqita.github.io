@@ -183,6 +183,10 @@ transform: translate(-50%);
   from {transform: translateX(0);}
   to {transform: translateX(100%)}
 }
+.introImg{
+  background-color: #888;
+  width: 100%;
+}
 section.story{
   max-width: unset;
   padding: 100px 0;

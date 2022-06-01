@@ -5,6 +5,7 @@
 .scrolldown{
   mix-blend-mode: normal;
 }
+
 #pTopImg{
   background: #15212e;
 }
@@ -53,6 +54,11 @@ transform: translate(-50%);
 .grid.p000 .grid-item img {
   	min-height: 180px;
 }
+
+.exArea{
+  position: relative;
+}
+
 .copyArea{
 	height: calc(100vh - 200px);
 	max-width: unset;

@@ -33,7 +33,12 @@
               それでも彼女は確かに存在している。<br>
             </p>
           </div>
-          <div class="conceptImg"></div>
+          <div class="conceptImg">
+            <svg class="figure" width="100%" height="500px">
+              <image x="0" y="0" width="100%" height="100%" filter="url(#glitchIG)" href="img/pIG/#.jpg">
+              </image>
+            </svg>
+          </div>
       </section>
 
       <section class="exArea">
@@ -46,67 +51,8 @@
               インターネットの不確かさや矛盾に焦点を当てたプロジェクトです。<br>
             </p>
           </div>
-          <div class="exImg"></div>
-          <svg class="figure" width="100%" height="500px">
-            <image x="0" y="0" width="100%" height="100%" filter="url(#glitchIG)" href="img/pIG/#.jpg">
-            </image>
-          </svg>
-          <svg width="0" height="0">
-            <defs>
-              <filter id="glitchIG" primitiveUnits="objectBoundingBox" x="-10%" y="0%" width="120%" height="100%">
-                            <feColorMatrix in="SourceGraphic" result="red" type="matrix" values="
-                                                  .5 0 0 0 0
-                                                   0 0 0 0 0
-                                                   0 0 .5 0 0
-                                                   0 0 0 1 0"></feColorMatrix>
-                            <feColorMatrix in="SourceGraphic" result="green" type="matrix" values="
-                                                    0 0 0 0 0
-                                                   0 .5 0 0 0
-                                                   0 0 .5 0 0
-                                                   0 0 0 1 0"></feColorMatrix>
-                            <feColorMatrix in="SourceGraphic" result="blue" type="matrix" values="
-                                                    0 0 0 0 0
-                                                   0 0 0 0 0
-                                                   0 0 1 0 0
-                                                   0 0 0 1 0"></feColorMatrix>
-
-                            <!-- shifted -->
-                            <feOffset in="red" result="red-shifted" dx="-0.005" dy="0">
-                              <animate attributeName="dx" values="0; -0.005; 0; -0.001; -0.004" keyTimes="0; 0.12; 0.23; 0.6; 0.8" begin="0s" dur=".2s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>
-                            </feOffset>
-                            <feOffset in="blue" result="blue-shifted" dx="0.005" dy="0">
-                              <animate attributeName="dx" values="0; 0.005; 0; 0.004; 0.002" keyTimes="0; 0.1; 0.4; 0.5; 0.6" begin="0s" dur=".5s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>
-                            </feOffset>
-
-                            <!-- blended: ブレンド結果 -->
-                            <feBlend mode="screen" in="red-shifted" in2="green" result="red-green"></feBlend>
-                            <feBlend mode="screen" in="red-green" in2="blue-shifted" result="blended"></feBlend>
-
-                            <!-- スライス -->
-                            <feOffset in="blended" dx="0" dy="0" y="0%" height="15%" result="slice1"></feOffset>
-                            <feOffset in="blended" dx="0" dy="0" y="15%" height="2%" result="slice2">
-                              <animate attributeName="dx" values="0; -0.005; 0; -0.01" keyTimes="0; 0.01; 0.5; 0.8" begin="0s" dur=".5s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>
-                            </feOffset>
-                            <feOffset in="blended" dx="0" dy="0" y="17%" height="10%" result="slice3"></feOffset>
-                            <feOffset in="blended" dx="0" dy="0" y="27%" height="4%" result="slice4">
-                              <animate attributeName="dx" values="0; 0.01; 0; 0.05; 0.01" keyTimes="0; 0.12; 0.2; 0.4; 0.5" begin="0s" dur=".5s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>
-                            </feOffset>
-                            <feOffset in="blended" dx="0" dy="0" y="31%" height="33%" result="slice5"></feOffset>
-                            <feOffset in="blended" dx="0" dy="0" y="64%" height="3%" result="slice6">
-                              <animate attributeName="dx" values="0; -0.005; 0; -0.001; -0.00; -0.001; -0.005; -0.001; -0.008" keyTimes="0; 0.01; 0.05; 0.08; 0.1; 0.25; 0.7; 0.8; 0.95" begin="0s" dur=".5s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>              </feOffset>
-                            <feOffset in="blended" dx="0" dy="0" y="67%" height="33%" result="slice7"></feOffset>
-                            <feMerge>
-                              <feMergeNode in="slice1"></feMergeNode>
-                              <feMergeNode in="slice2"></feMergeNode>
-                              <feMergeNode in="slice3"></feMergeNode>
-                              <feMergeNode in="slice4"></feMergeNode>
-                              <feMergeNode in="slice5"></feMergeNode>
-                              <feMergeNode in="slice6"></feMergeNode>
-                              <feMergeNode in="slice7"></feMergeNode>
-                            </feMerge>
-              </filter>
-            </defs>
-          </svg>
+          <div class="exImg">
+          </div>
           <div class="filter"></div>
       </section>
 
@@ -145,6 +91,63 @@
         7&#178;-Sevensquared. since 2021<br>
         all contents projected by sciqita</p>
     </div>
+
+    <svg width="0" height="0">
+      <defs>
+        <filter id="glitchIG" primitiveUnits="objectBoundingBox" x="-10%" y="0%" width="120%" height="100%">
+                      <feColorMatrix in="SourceGraphic" result="red" type="matrix" values="
+                                            .5 0 0 0 0
+                                             0 0 0 0 0
+                                             0 0 .5 0 0
+                                             0 0 0 1 0"></feColorMatrix>
+                      <feColorMatrix in="SourceGraphic" result="green" type="matrix" values="
+                                              0 0 0 0 0
+                                             0 .5 0 0 0
+                                             0 0 .5 0 0
+                                             0 0 0 1 0"></feColorMatrix>
+                      <feColorMatrix in="SourceGraphic" result="blue" type="matrix" values="
+                                              0 0 0 0 0
+                                             0 0 0 0 0
+                                             0 0 1 0 0
+                                             0 0 0 1 0"></feColorMatrix>
+
+                      <!-- shifted -->
+                      <feOffset in="red" result="red-shifted" dx="-0.005" dy="0">
+                        <animate attributeName="dx" values="0; -0.005; 0; -0.001; -0.004" keyTimes="0; 0.12; 0.23; 0.6; 0.8" begin="0s" dur=".2s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>
+                      </feOffset>
+                      <feOffset in="blue" result="blue-shifted" dx="0.005" dy="0">
+                        <animate attributeName="dx" values="0; 0.005; 0; 0.004; 0.002" keyTimes="0; 0.1; 0.4; 0.5; 0.6" begin="0s" dur=".5s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>
+                      </feOffset>
+
+                      <!-- blended: ブレンド結果 -->
+                      <feBlend mode="screen" in="red-shifted" in2="green" result="red-green"></feBlend>
+                      <feBlend mode="screen" in="red-green" in2="blue-shifted" result="blended"></feBlend>
+
+                      <!-- スライス -->
+                      <feOffset in="blended" dx="0" dy="0" y="0%" height="15%" result="slice1"></feOffset>
+                      <feOffset in="blended" dx="0" dy="0" y="15%" height="2%" result="slice2">
+                        <animate attributeName="dx" values="0; -0.005; 0; -0.01" keyTimes="0; 0.01; 0.5; 0.8" begin="0s" dur=".5s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>
+                      </feOffset>
+                      <feOffset in="blended" dx="0" dy="0" y="17%" height="10%" result="slice3"></feOffset>
+                      <feOffset in="blended" dx="0" dy="0" y="27%" height="4%" result="slice4">
+                        <animate attributeName="dx" values="0; 0.01; 0; 0.05; 0.01" keyTimes="0; 0.12; 0.2; 0.4; 0.5" begin="0s" dur=".5s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>
+                      </feOffset>
+                      <feOffset in="blended" dx="0" dy="0" y="31%" height="33%" result="slice5"></feOffset>
+                      <feOffset in="blended" dx="0" dy="0" y="64%" height="3%" result="slice6">
+                        <animate attributeName="dx" values="0; -0.005; 0; -0.001; -0.00; -0.001; -0.005; -0.001; -0.008" keyTimes="0; 0.01; 0.05; 0.08; 0.1; 0.25; 0.7; 0.8; 0.95" begin="0s" dur=".5s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>              </feOffset>
+                      <feOffset in="blended" dx="0" dy="0" y="67%" height="33%" result="slice7"></feOffset>
+                      <feMerge>
+                        <feMergeNode in="slice1"></feMergeNode>
+                        <feMergeNode in="slice2"></feMergeNode>
+                        <feMergeNode in="slice3"></feMergeNode>
+                        <feMergeNode in="slice4"></feMergeNode>
+                        <feMergeNode in="slice5"></feMergeNode>
+                        <feMergeNode in="slice6"></feMergeNode>
+                        <feMergeNode in="slice7"></feMergeNode>
+                      </feMerge>
+        </filter>
+      </defs>
+    </svg>
 
     <footer>©&thinsp;sevensquared.</footer>
     <script src="./js/scrollAnime.js"></script>

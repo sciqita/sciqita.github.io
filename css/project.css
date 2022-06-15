@@ -36,12 +36,11 @@ transform: translate(-50%);
 	position: absolute;
   bottom: 100px;
   overflow-wrap:anywhere;
+  mix-blend-mode: difference;
 }
 .conceptImg{
 	width: 45%;
 	height: 600px;
-	background-image: ;
-  background-position: center;
 	display: block;
 	position: absolute;
 	top: 100px;
@@ -98,6 +97,25 @@ transform: translate(-50%);
 	width: auto;
 	height: 75px;
 }
+
+.exTxt{
+  color: #00f;
+  background-color: #fff8;
+  padding: 1.4em 3em;
+  backdrop-filter:blur(5px)sepia(.8)contrast(0.5);
+
+}
+.exImg{
+  background-image: url(../img/#.jpg);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position-y: center;
+  background-attachment: fixed;
+  z-index: -10;}
 
 .NOTHING.prjIG{
 	background-image: url(../img/#.png);

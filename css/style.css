@@ -384,6 +384,30 @@ section{
 .about-content{
   max-width: 900px;
 }
+.about-content .flex>img{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.about-content .scrollLRLoop{
+    width:100%;
+    height:300px;
+    background:pink;
+    overflow:hidden;
+    position:relative;
+}
+@keyframes scrollLR{
+  from {transform: translateX(0);}
+  to {transform: translateX(-100%)}
+}
+
+.about-content .scrollLRLoop img{
+  width:100%;
+      left: 0;
+  position:absolute;
+  animation:scrollLR 18s linear infinite;
+}
+
 .about-content p a{
   display: inline-block;
 }

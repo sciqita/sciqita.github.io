@@ -446,12 +446,12 @@ section{
   .content-bg-filter:hover{ background-color: #fff;}
 }
 
-.pc{ display:block;}
+.pc{ display:block!important;}
 .sp{ display:none!important;}
 
 @media only screen and (max-width:750px){
 	.pc{ display:none!important;}
-	.sp{ display:block;}
+	.sp{ display:block!important;}
 }
 @media only screen and (max-width:1003px){
 	.pcL{ display:none!important;}

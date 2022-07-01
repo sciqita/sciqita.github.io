@@ -240,12 +240,11 @@ section.story{
   width: 100%;
 }
 .imgArea{
-  width: auto; height:calc(100vh - 60px);
-  background: #aaaa;
+  width: auto; height:100%;
   margin: 0 auto;
 }
 #imgId{
-   background:url(img/main.svg);
+   background-image:url(img/main.svg);
      background-size: contain;
      background-repeat: no-repeat;
      background-position: bottom;

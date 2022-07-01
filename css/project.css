@@ -211,9 +211,9 @@ transform: translate(-50%);
   background-color: #888;
   background-image: url(img/p000/#);
   background-attachment: fixed;
-  width: 100%;
-  height: 20em;
-}
+  width: 30%;
+  height: 400px;
+  }
 section.story{
   max-width: unset;
   padding: 100px 0;
@@ -258,6 +258,7 @@ section.story{
   height: 6em;
   position: absolute;
   bottom: 2.5rem;
+  overflow: hidden;
 }
 input[type="button"] {
   width: 100%; height: 100%;
@@ -313,7 +314,7 @@ input[type="radio"]:checked + .radioBg label img::after{
 .slide-in { overflow: hidden; display: inline-block;}
 .slide-in_inner { display: inline-block; margin-bottom: 0; font-family:"Courier";}
 /*左右のアニメーション*/
-.leftAnime{ opacity: 0;/*事前に透過0にして消しておく*/}
+.leftAnime{ opacity: 1;/*ロード時にも動かしたい場合は事前に透過0にして消しておく*/}
 .slideAnimeLeftRight {
   animation-name:slideTextX100;
   animation-duration:0.8s; animation-delay: 0.1s;

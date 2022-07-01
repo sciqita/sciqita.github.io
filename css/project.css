@@ -229,8 +229,113 @@ section.story{
   opacity: .2;
 }
 .storyMain{
-  padding: 1em 100px 2em 100px;
   max-width: 900px;
   margin: auto;
   background: #fff8;
 }
+.storyMain form{
+  position: relative;
+  height: calc(100vh - 36px - 2.49em);
+  background-color: #ccc;
+  width: 100%;
+}
+.imgArea{
+  width: auto; height:calc(100vh - 60px);
+  background: #aaaa;
+  margin: 0 auto;
+}
+#imgId{
+   background:url(img/main.svg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: bottom;
+}
+.txtFrame{
+  font: 1.25em 'Sawarabi Gothic';
+  padding: 1rem;
+  background: #fffe;
+  width: 34rem;
+  height: 6em;
+  position: absolute;
+  bottom: 2.5rem;
+}
+input[type="button"] {
+  width: 100%; height: 100%;
+  padding: 0;
+  position: absolute;
+  cursor: pointer;
+  top: 0; right: 0;
+  opacity: 0;
+  -webkit-appearance: none;
+}
+input[type="radio"] {
+  margin: .5em;
+  cursor: pointer;
+}
+#randomABtn{ display: block;}
+.radio {
+    position: absolute;
+    bottom: .75em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.radioBg{
+  width: 4em; height: 4em;
+  background-color: #ddd;
+  margin: 1em;
+  position: relative;
+  cursor: pointer;
+}
+label{
+  cursor: pointer;
+}
+input[type="radio"]{
+  display:none;
+}
+input[type="radio"] + .radioBg label img{
+  width: 4em; height: 4em;
+  position: absolute;
+  display: block;
+  opacity: .5;
+}
+input[type="radio"]:checked + .radioBg label img{
+    opacity:1;
+    transition: .3s;
+}
+input[type="radio"]:checked + .radioBg{
+    background-color: #fff;
+}
+input[type="radio"]:checked + .radioBg label img::after{
+    content: attr(image);
+}
+/*========= 流れるテキスト ===============*/
+/*全共通*/
+.slide-in { overflow: hidden; display: inline-block;}
+.slide-in_inner { display: inline-block; margin-bottom: 0; font-family:"Courier";}
+/*左右のアニメーション*/
+.leftAnime{ opacity: 0;/*事前に透過0にして消しておく*/}
+.slideAnimeLeftRight {
+  animation-name:slideTextX100;
+  animation-duration:0.8s; animation-delay: 0.1s;
+  animation-fill-mode:forwards;
+  opacity: 0;            }
+@keyframes slideTextX100 {
+  from {
+    transform: translateX(-100%); /*要素を左の枠外に移動*/
+    opacity: 0;              }
+  to {
+    transform: translateX(0);/*要素を元の位置に移動*/
+    opacity: 1;              }            }
+.slideAnimeRightLeft {
+  animation-name:slideTextX-100;
+  animation-duration:0.8s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+}
+@keyframes slideTextX-100 {
+  from {
+    transform: translateX(100%);/*要素を右の枠外に移動*/
+    opacity: 0;              }
+  to {
+    transform: translateX(0);/*要素を元の位置に移動*/
+    opacity: 1;              }            }

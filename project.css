@@ -1,0 +1,341 @@
+::selection {
+    background: #000;
+    color: #fff;
+}
+.scrolldown{
+  mix-blend-mode: normal;
+}
+
+#pTopImg{
+  background: #15212e;
+}
+.pTitle{
+  padding: 1em;
+font-size: 2em;
+font-family: "Osaka-Mono", "Osaka−等幅",sans-serif;
+margin: auto;
+color: #fff;
+position: absolute;
+top: calc(50% - 2em);
+left: calc(50%);
+transform: translate(-50%);
+}
+.pTitle.p000{
+  position: absolute;
+  top: 25%;
+  transform: translateX(50%);
+  left: 0;
+}
+
+.conceptArea{
+	height: 600px;
+}
+.conceptTxt{
+	width: 50%;
+	text-align: left;
+	position: absolute;
+  bottom: 100px;
+  overflow-wrap:anywhere;
+  mix-blend-mode: difference;
+}
+.conceptImg{
+	width: 45%;
+	height: 600px;
+	display: block;
+	position: absolute;
+	top: 100px;
+	right: 100px;
+	z-index: -1;
+}
+.grid.p000 .grid-item{
+  height: 180px;
+}
+.grid.p000 .grid-item img {
+  	min-height: 180px;
+}
+
+.exArea{
+  position: relative;
+}
+
+.copyArea{
+	height: calc(100vh - 200px);
+	max-width: unset;
+  position: relative;
+}
+.copyAreaBG{
+  width: 100%; height: 100%;
+  background-image: url(../img/pIG/internetGhost.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  mix-blend-mode: plus-lighter;
+  animation:blurAnime 10s ease infinite;
+  }
+@keyframes blurAnime{
+  0% {filter: blur(11px);transform: translateY(-5px);}
+  10% {filter: blur(0px);}
+  5% {filter: blur(2px);}
+  10% {filter: blur(0px);}
+  20% {filter: blur(2px);}
+  30% {filter: blur(0px);transform: translateY(10px)}
+  32% {filter: blur(3px);}
+  40% {filter: blur(0px);}
+  50% {filter: blur(3px);}
+  60% {filter: blur(0px);transform: translateY(6px)}
+  70% {filter: blur(3px);}
+  90% {filter: blur(0px);transform: translateY(0px)}
+  100% {filter: blur(10px);transform: translateY(-5px)}
+}
+
+.projectedBy{
+	text-align: center;
+	font-family: "Osaka-Mono",sans-serif;
+	font-size: 1.2em;
+}
+.projectedBy a img{
+	width: auto;
+	height: 75px;
+}
+
+.exTxt{
+  color: #00f;
+  background-color: #fff8;
+  padding: 1.4em 3em;
+  backdrop-filter:blur(5px)sepia(.8)contrast(0.5);
+
+}
+.exImg{
+  background-image: url(../img/#.jpg);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position-y: center;
+  background-attachment: fixed;
+  z-index: -10;}
+
+.NOTHING.prjIG{
+	background-image: url(../img/#.png);
+	background-position: left top;
+}
+
+.codeTxtObj{
+  position:relative;
+}
+.codeTxtObj::after{content:"";transform:scaleY(0);}
+.codeTxtObj p{
+  width: 0;
+  overflow:hidden;
+  height:1.2em;
+  padding-bottom:.5em;
+  margin:0 0 0 .5em;
+  color: #fff;
+
+  mix-blend-mode: exclusion;
+}
+.codeTxtObj.codeTxt::after{
+  position:absolute;
+  top:0;
+  left:-.5em;
+  width:5px;
+  height:100%;
+  background:#fff;
+  transition:ease-out;
+  animation-name:lineTtoB;
+  animation-duration:.5s;
+  animation-fill-mode:forwards;
+
+  mix-blend-mode: exclusion;
+}
+@keyframes lineTtoB{
+  from {
+    transform:scaleY(0);
+    transform-origin:top;
+  }
+  to {
+    transform:scaleY(1);
+    transform-origin:top;
+  }
+}
+.codeTxtObj.codeTxt p{
+  animation-name:textLtoR;
+  animation-delay: .1s;
+  animation-duration:.8s;
+  animation-fill-mode:forwards;
+  transition:ease-out;
+  }
+@keyframes textLtoR{
+  from {
+    width:0;
+  }
+  to {
+    width:20em;
+  }
+}
+
+.codeTxtContainer{
+  position: absolute;
+}
+
+
+@media only screen and (max-width:750px){
+  section{padding: 100px 2em;}
+  .conceptImg{
+    width: 100%; left: 0;
+  }
+  .conceptTxt{ width: 70%;}
+  .NOTHING.prjIG{ padding: unset;}
+}
+
+
+.scrollLRLoop{
+  width:100%;
+  height:300px;
+  background:pink;
+  overflow:hidden;
+  position:relative;
+}
+.scrollLRLoop img{
+  width:100%;
+  position:absolute;
+  animation:scrollLR 18s linear infinite;
+}
+@keyframes scrollLR{
+  from {transform: translateX(0);}
+  to {transform: translateX(100%)}
+}
+.introImg{
+  background-color: #888;
+  background-image: url(img/p000/#);
+  background-attachment: fixed;
+  width: 30%;
+  height: 400px;
+  }
+section.story{
+  max-width: unset;
+  padding: 100px 0;
+}
+.storyBg{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: -2;
+  left: 0em;
+  top:0;
+  opacity: .2;
+}
+.storyMain{
+  max-width: 900px;
+  margin: auto;
+  background: #fff8;
+}
+.storyMain form{
+  position: relative;
+  height: calc(100vh - 36px - 2.49em);
+  background-color: #ccc;
+  width: 100%;
+}
+.imgArea{
+  width: auto; height:100%;
+  margin: 0 auto;
+}
+#imgId{
+   background-image:url(img/main.svg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: bottom;
+}
+.txtFrame{
+  font: 1.25em 'Sawarabi Gothic';
+  padding: 1rem;
+  background: #fffe;
+  width: 34rem;
+  height: 6em;
+  position: absolute;
+  bottom: 2.5rem;
+  overflow: hidden;
+}
+input[type="button"] {
+  width: 100%; height: 100%;
+  padding: 0;
+  position: absolute;
+  cursor: pointer;
+  top: 0; right: 0;
+  opacity: 0;
+  -webkit-appearance: none;
+}
+input[type="radio"] {
+  margin: .5em;
+  cursor: pointer;
+}
+#randomABtn{ display: block;}
+.radio {
+    position: absolute;
+    bottom: .75em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.radioBg{
+  width: 4em; height: 4em;
+  background-color: #ddd;
+  margin: 1em;
+  position: relative;
+  cursor: pointer;
+}
+label{
+  cursor: pointer;
+}
+input[type="radio"]{
+  display:none;
+}
+input[type="radio"] + .radioBg label img{
+  width: 4em; height: 4em;
+  position: absolute;
+  display: block;
+  opacity: .5;
+}
+input[type="radio"]:checked + .radioBg label img{
+    opacity:1;
+    transition: .3s;
+}
+input[type="radio"]:checked + .radioBg{
+    background-color: #fff;
+}
+input[type="radio"]:checked + .radioBg label img::after{
+    content: attr(image);
+}
+/*========= 流れるテキスト ===============*/
+/*全共通*/
+.slide-in { overflow: hidden; display: inline-block;}
+.slide-in_inner { display: inline-block; margin-bottom: 0; font-family:"Courier";}
+/*左右のアニメーション*/
+.leftAnime{ opacity: 1;/*ロード時にも動かしたい場合は事前に透過0にして消しておく*/}
+.slideAnimeLeftRight {
+  animation-name:slideTextX100;
+  animation-duration:0.8s; animation-delay: 0.1s;
+  animation-fill-mode:forwards;
+  opacity: 0;            }
+@keyframes slideTextX100 {
+  from {
+    transform: translateX(-100%); /*要素を左の枠外に移動*/
+    opacity: 0;              }
+  to {
+    transform: translateX(0);/*要素を元の位置に移動*/
+    opacity: 1;              }            }
+.slideAnimeRightLeft {
+  animation-name:slideTextX-100;
+  animation-duration:0.8s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+}
+@keyframes slideTextX-100 {
+  from {
+    transform: translateX(100%);/*要素を右の枠外に移動*/
+    opacity: 0;              }
+  to {
+    transform: translateX(0);/*要素を元の位置に移動*/
+    opacity: 1;              }            }

@@ -82,7 +82,7 @@
         txtId2.textContent = (message2[x]);
         const image = ["000smile","000close","000smile","000smile2","000sad","000load","000smile","000sad2"];
         const imgId = document.getElementById('imgId');
-        imgId.style.background = "url(img/p000/" + image[x]+".png)";
+        imgId.style.backgroundImage = "url(img/p000/" + image[x]+".png)";
         //クリックするたびアニメーション付与
         $('.leftAnime').addClass("slideAnimeLeftRight");
         $('.leftAnime').children(".leftAnimeInner").addClass("slideAnimeRightLeft");

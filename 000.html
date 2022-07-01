@@ -26,13 +26,15 @@
       <section class="intro">
           <div>
             <h2 class="" style="overflow-wrap:anywhere;">pseudo-artificial-intelligence</h2>
-            <p class="">
-              000.psi_通称ラミサンは擬似人工知能です。<br>
-              近未来を舞台にした創作物に登場するような、作業の自動化・効率化・提案を行う会話型人工知能をモチーフにしたキャラクターです。<br>
-              擬似的が故のただの文字列の集合体、それ以上もそれ以下もありません。<br>
-              ましてや感情など持ち合わせるはずもありません。
-            </p>
-            <div class="introImg"></div>
+            <div class="flex" style="flex-wrap: nowrap">
+              <div class="introImg"></div>
+              <p class="" style="width: calc(70% - 3em);">
+                000.psi_通称ラミサンは擬似人工知能です。<br>
+                近未来を舞台にした創作物に登場するような、作業の自動化・効率化・提案を行う会話型人工知能をモチーフにしたキャラクターです。<br>
+                擬似的が故のただの文字列の集合体、それ以上もそれ以下もありません。<br>
+                ましてや感情など持ち合わせるはずもありません。
+              </p>
+            </div>
           </div>
       </section>
 
@@ -78,7 +80,7 @@
         //txtIdのテキストをmessageのx番の文字に差替
         txtId.textContent = (message[x]);
         txtId2.textContent = (message2[x]);
-        const image = ["000smile","000close","000smile","000smile2","000sad","000load","000smile","grape"];
+        const image = ["000smile","000close","000smile","000smile2","000sad","000load","000smile","000sad2"];
         const imgId = document.getElementById('imgId');
         imgId.style.background = "url(img/p000/" + image[x]+".png)";
         //クリックするたびアニメーション付与
@@ -88,6 +90,7 @@
         $(".slideAnimeLeftRight" && ".slideAnimeRightLeft").on('animationend webkitAnimationEnd',function(){
           $('.leftAnime').removeClass("slideAnimeLeftRight");
           $('.leftAnime').children(".leftAnimeInner").removeClass("slideAnimeRightLeft");
+          $('.leftAnime').css({'opacity':'1'});
         });
       }
         //ダブルタップによる拡大の防止let lastTouch = 0;

@@ -284,11 +284,13 @@ section{
   position: absolute;
   background-attachment: fixed;
   background-size: cover;
+  background-position: 20%;
+  filter: invert(1);
 }
 #bg01{
-  background-image: url(../img/lab000.png);}
+  background-image: url(../img/topghostcg.png);}
 #bg02{
-  background-image: url(../img/lab000.png);}
+  background-image: url(../img/top000.png);}
 .content-bg-filter{
   position: absolute;
   bottom: 0;
@@ -296,7 +298,7 @@ section{
   width: 90%;
   height: 75%;
   background-color: #fff;
-  mix-blend-mode: exclusion;
+  mix-blend-mode: difference;
   filter: drop-shadow(2px 3px 3px #878787);
   opacity: .8;
   transition: .3s ease-in-out;
@@ -304,9 +306,9 @@ section{
   -webkit-perspective: 1000;
   -webkit-backface-visibility: hidden;/*perspectiveだけでも良かった。backfaceだけで大丈夫かは確認してない*/
 }
-.content-bg-filter:hover{
+/*.content-bg-filter:hover{
   background-color: #000;
-}
+}*/
 .content-item{
   position: absolute;
   bottom: 0;

@@ -1,3 +1,6 @@
+.pIG section{
+  padding:100px calc(50vw - 450px);
+}
 ::selection {
     background: #000;
     color: #fff;
@@ -29,21 +32,26 @@ transform: translate(-50%);
 
 .conceptArea{
 	height: 600px;
+  background-color: #071a2c;
+  z-index: -2;
+  padding: 0!important;
+  margin: 100px auto;
 }
 .conceptTxt{
 	width: 50%;
 	text-align: left;
 	position: absolute;
-  bottom: 100px;
+  bottom: 0;
+  left:.5em;
   overflow-wrap:anywhere;
-  mix-blend-mode: difference;
+  mix-blend-mode: plus-lighter;
 }
 .conceptImg{
 	width: 45%;
 	height: 600px;
 	display: block;
 	position: absolute;
-	top: 100px;
+	top: -50px;
 	right: 100px;
 	z-index: -1;
 }
@@ -106,7 +114,7 @@ transform: translate(-50%);
 
 }
 .exImg{
-  background-image: url(../img/#.jpg);
+  background-image: url(../img/pIG/backrside.GIF);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -118,7 +126,7 @@ transform: translate(-50%);
   z-index: -10;}
 
 .NOTHING.prjIG{
-	background-image: url(../img/#.png);
+	/*background-image: url(../img/#.png);*/
 	background-position: left top;
 }
 
@@ -179,7 +187,13 @@ transform: translate(-50%);
 .codeTxtContainer{
   position: absolute;
 }
-
+.codeTxtRight{
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  bottom:300px;
+}
 
 @media only screen and (max-width:750px){
   section{padding: 100px 2em;}
@@ -209,7 +223,7 @@ transform: translate(-50%);
 }
 .introImg{
   background-color: #888;
-  background-image: url(img/p000/#);
+  background-image: url(img/p000/000-default.png);
   background-attachment: fixed;
   width: 30%;
   height: 400px;

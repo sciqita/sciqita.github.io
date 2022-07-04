@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
 </head>
 <body align="center">
-  <div class="wrap">
+  <div class="wrap pIG">
     <div class="TopView">
       <div class="TopImg" id="pTopImg"></div>
       <div class="pTitle"><div class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">InternetGhost_</span></div></div>
@@ -33,9 +33,9 @@
               それでも彼女は確かに存在している。<br>
             </p>
           </div>
-          <div class="conceptImg">
-            <svg class="figure" width="100%" height="500px">
-              <image x="0" y="0" width="100%" height="100%" filter="url(#glitchIG)" href="img/pIG/#.jpg">
+          <div class="conceptImg fadeInObj fadeIn" >
+            <svg class="figure" width="100%" height="120%">
+              <image x="0" y="0" width="100%" height="100%" filter="url(#glitchIG)" href="img/pIG/internetGhost-cg.png">
               </image>
             </svg>
           </div>
@@ -64,17 +64,25 @@
             <p style="animation-delay: .2s;">そして私を見つけてください。</p>
           </div>
         </div>
-        <div class="codeTxtContainer" style="bottom:120px; padding-left: calc(100% - (27em + 10% ));padding-right: 10%;">
+        <div class="codeTxtRight">
+          <div class="codeTxtContainer">
           <div class="codeTxtObj">
             <p style="animation-delay: .1s;">決して私を忘れないでください。</p>
             <p style="animation-delay: .2s;">どうか私を殺さないでください。</p>
             <p style="animation-delay: .3s;">けれども私を愛さないでください。</p>
           </div>
         </div>
+        </div>
       </section>
 
-      <section style="background:pink;">
-        <div>ネットの亡霊はどこかで生きている</div>
+      <section style="background-color: #071a2c;">
+        <a href="https://twitter.com/hashtag/%E3%83%8D%E3%83%83%E3%83%88%E3%81%AE%E4%BA%A1%E9%9C%8A%E3%81%AF%E3%81%A9%E3%81%93%E3%81%8B%E3%81%A7%E7%94%9F%E3%81%8D%E3%81%A6%E3%81%84%E3%82%8B?src=hashtag_click">
+          <svg font-family="sans-serif" font-size="16" height="50">
+            <text x="0" y="33"  fill="#aaa" filter="url(#glitchIG)">
+              #ネットの亡霊はどこかで生きている
+            </text>
+        </svg>
+      </a>
       </section>
 
       <section class="projectedBy">
@@ -124,11 +132,11 @@
                       <feBlend mode="screen" in="red-green" in2="blue-shifted" result="blended"></feBlend>
 
                       <!-- スライス -->
-                      <feOffset in="blended" dx="0" dy="0" y="0%" height="15%" result="slice1"></feOffset>
-                      <feOffset in="blended" dx="0" dy="0" y="15%" height="2%" result="slice2">
+                      <feOffset in="blended" dx="0" dy="0" y="0%" height="18%" result="slice1"></feOffset>
+                      <feOffset in="blended" dx="0" dy="0" y="18%" height="1%" result="slice2">
                         <animate attributeName="dx" values="0; -0.005; 0; -0.01" keyTimes="0; 0.01; 0.5; 0.8" begin="0s" dur=".5s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>
                       </feOffset>
-                      <feOffset in="blended" dx="0" dy="0" y="17%" height="10%" result="slice3"></feOffset>
+                      <feOffset in="blended" dx="0" dy="0" y="19%" height="10%" result="slice3"></feOffset>
                       <feOffset in="blended" dx="0" dy="0" y="27%" height="4%" result="slice4">
                         <animate attributeName="dx" values="0; 0.01; 0; 0.05; 0.01" keyTimes="0; 0.12; 0.2; 0.4; 0.5" begin="0s" dur=".5s" calcMode="discrete" repeatCount="indefinite" fill="freeze"></animate>
                       </feOffset>

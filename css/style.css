@@ -444,10 +444,12 @@ section{
     background-attachment:scroll;}
   #titlechart{padding: 0 1em;}
 }
-@media only screen and (max-width:1003px){
-  .content-bg{ background-attachment: unset; background-position: center;}
+@media only screen and (max-width:1080px){
+  .content-bg{ background-size: 120%; background-position: center;}
   .content-bg-filter{ background-color: #fff; }
-
+}
+@media only screen and (max-width:750px){
+  .content-bg{ background-attachment: unset; background-position: center;}
 }
 .pc{ display:block!important;}
 .sp{ display:none!important;}

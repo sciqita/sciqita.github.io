@@ -44,8 +44,8 @@
               <form>
                 <div id="imgId" class="imgArea"></div>
                 <div class="txtFrame">
-                  <span class="slide-in leftAnime"><p id="txtId"class="slide-in_inner leftAnimeInner">Hi.</p></span><br>
-                  <span class="slide-in leftAnime"><p id="txtId2"class="slide-in_inner leftAnimeInner">Here is my room.</p></span>
+                  <span class="slide-in leftAnime000"><p id="txtId"class="slide-in_inner leftAnime000Inner">Hi.</p></span><br>
+                  <span class="slide-in leftAnime000"><p id="txtId2"class="slide-in_inner leftAnime000Inner">Here is my room.</p></span>
                 </div>
                 <input type="button" id="randomABtn" value="" onClick="randomA()">
               </form>
@@ -84,13 +84,13 @@
         const imgId = document.getElementById('imgId');
         imgId.style.backgroundImage = "url(img/p000/" + image[x]+".png)";
         //クリックするたびアニメーション付与
-        $('.leftAnime').addClass("slideAnimeLeftRight");
-        $('.leftAnime').children(".leftAnimeInner").addClass("slideAnimeRightLeft");
+        $('.leftAnime000').addClass("slideAnimeLeftRight000");
+        $('.leftAnime000').children(".leftAnime000Inner").addClass("slideAnimeRightLeft000");
         //アニメーションが終了したらクラス削除
-        $(".slideAnimeLeftRight" && ".slideAnimeRightLeft").on('animationend webkitAnimationEnd',function(){
-          $('.leftAnime').removeClass("slideAnimeLeftRight");
-          $('.leftAnime').children(".leftAnimeInner").removeClass("slideAnimeRightLeft");
-          $('.leftAnime').css({'opacity':'1'});
+        $(".slideAnimeLeftRight000" && ".slideAnimeRightLeft000").on('animationend webkitAnimationEnd',function(){
+          $('.leftAnime000').removeClass("slideAnimeLeftRight000");
+          $('.leftAnime000').children(".leftAnime000Inner").removeClass("slideAnimeRightLeft000");
+          $('.leftAnime000').css({'opacity':'1'});
         });
       }
         //ダブルタップによる拡大の防止let lastTouch = 0;
@@ -101,29 +101,29 @@
         }
         lastTouch = now;
         }, true);
-      function slideAnime(){
+      function slideAnime000(){
         //====左に動くアニメーションここから===
-        $('.leftAnime').each(function(){
+        $('.leftAnime000').each(function(){
           var elemPos = $(this).offset().top-50;
           var scroll = $(window).scrollTop();
           var windowHeight = $(window).height();
           if (scroll >= elemPos - windowHeight){
             //左から右へ表示するクラスを付与
             //テキスト要素を挟む親要素（左側）とテキスト要素を元位置でアニメーションをおこなう
-            $(this).addClass("slideAnimeLeftRight"); //要素を左枠外にへ移動しCSSアニメーションで左から元の位置に移動
-            $(this).children(".leftAnimeInner").addClass("slideAnimeRightLeft");  //子要素は親要素のアニメーションに影響されないように逆の指定をし元の位置をキープするアニメーションをおこなう
+            $(this).addClass("slideAnimeLeftRight000"); //要素を左枠外にへ移動しCSSアニメーションで左から元の位置に移動
+            $(this).children(".leftAnime000Inner").addClass("slideAnimeRightLeft000");  //子要素は親要素のアニメーションに影響されないように逆の指定をし元の位置をキープするアニメーションをおこなう
           }
         });
         //アニメーションが終わったらクラス削除（透明度は1のまま残す！）
-        $(".slideAnimeLeftRight" && ".slideAnimeRightLeft").on('animationend webkitAnimationEnd',function(){
-          $('.leftAnime').removeClass("slideAnimeLeftRight");
-          $('.leftAnime').children(".leftAnimeInner").removeClass("slideAnimeRightLeft");
-          $('.leftAnime').css({'opacity':'1'});
+        $(".slideAnimeLeftRight000" && ".slideAnimeRightLeft000").on('animationend webkitAnimationEnd',function(){
+          $('.leftAnime000').removeClass("slideAnimeLeftRight000");
+          $('.leftAnime000').children(".leftAnime000Inner").removeClass("slideAnimeRightLeft000");
+          $('.leftAnime000').css({'opacity':'1'});
         });
       }
       // 画面が読み込まれたらすぐに動かしたい場合の記述
       $(window).on('load', function(){
-        slideAnime();/* アニメーション用の関数を呼ぶ*/
+        slideAnime000();/* アニメーション用の関数を呼ぶ*/
       });
       </script>
 

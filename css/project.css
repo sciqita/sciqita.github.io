@@ -327,8 +327,8 @@ input[type="radio"]:checked + .radioBg label img::after{
 .slide-in { overflow: hidden; display: inline-block;}
 .slide-in_inner { display: inline-block; margin-bottom: 0; font-family:"Courier";}
 /*左右のアニメーション*/
-.leftAnime{ opacity: 1;/*ロード時にも動かしたい場合は事前に透過0にして消しておく*/}
-.slideAnimeLeftRight {
+.leftAnime000{ opacity: 1;/*ロード時にも動かしたい場合は事前に透過0にして消しておく*/}
+.slideAnimeLeftRight000 {
   animation-name:slideTextX100;
   animation-duration:0.8s; animation-delay: 0.1s;
   animation-fill-mode:forwards;
@@ -340,7 +340,7 @@ input[type="radio"]:checked + .radioBg label img::after{
   to {
     transform: translateX(0);/*要素を元の位置に移動*/
     opacity: 1;              }            }
-.slideAnimeRightLeft {
+.slideAnimeRightLeft000 {
   animation-name:slideTextX-100;
   animation-duration:0.8s;
   animation-fill-mode:forwards;

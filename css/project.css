@@ -125,7 +125,7 @@ transform: translate(-50%);
   background-attachment: fixed;
   background-repeat: no-repeat;
   z-index: -10;}
-  @media only screen and (max-width:1080px){
+  @media only screen and (max-width:1240px){
     .exImg{ background-attachment: unset; background-size: cover; background-position: center;}
   }
 

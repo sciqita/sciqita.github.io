@@ -227,7 +227,7 @@ transform: translate(-50%);
 }
 .introImg{
   background-color: #888;
-  background-image: url(img/p000/000-default.png);
+  background-image: url(../img/p000/000-default.png);
   background-attachment: fixed;
   width: 30%;
   height: 400px;
@@ -262,7 +262,7 @@ section.story{
   margin: 0 auto;
 }
 #imgId{
-   background-image:url(img/main.svg);
+   background-image:url(../img/p000/main.png);
      background-size: contain;
      background-repeat: no-repeat;
      background-position: bottom;
@@ -356,4 +356,39 @@ input[type="radio"]:checked + .radioBg label img::after{
     opacity: 0;              }
   to {
     transform: translateX(0);/*要素を元の位置に移動*/
-    opacity: 1;              }            }
+    opacity: 1; }
+  }
+
+
+  .typing {
+    width: 50%;
+    height: fit-content;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    text-align: left;
+    position: absolute;
+    top: calc(5% + 20px);
+    left: 50%;
+    color: #cef;
+  }
+  .typing span {
+    display: inline-block;
+    width: 100ch;
+    font: bold 1em Consolas, Monaco, monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 400;
+    /*border-right: 2px solid transparent;*/
+    animation: typing 3s steps(100), caret 0.5s steps(1) infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @keyframes caret {
+    50% {
+      border-right-color: currentColor;
+    }
+  }

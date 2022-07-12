@@ -251,7 +251,7 @@ transform: translate(-50%);
     .introImg{
       width: 100%;
       height: 300px;
-      background-position: center;
+      background-position: center -10%;
       background-size: 100vw;
     }
   }
@@ -278,7 +278,7 @@ section.story{
 .storyMain form{
   position: relative;
   height: calc(100vh - 36px - 2.49em);
-  background-color: #ccc;
+  background-image: url(../img/lab000.png);
   width: 100%;
 }
 .imgArea{
@@ -294,12 +294,13 @@ section.story{
 .txtFrame{
   font: 1.25em 'Sawarabi Gothic';
   padding: 1rem;
-  background: #fffe;
+  background: #fffd;
   width: 34rem;
-  height: 6em;
+  /*height: 6em;*/
   position: absolute;
   bottom: 2.5rem;
   overflow: hidden;
+  backdrop-filter: blur(5px);
 }
 input[type="button"] {
   width: 100%; height: 100%;

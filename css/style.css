@@ -123,6 +123,7 @@ footer{
   position: fixed;
   bottom: 1.4em;
   left: 40px;
+  color: #888;
   mix-blend-mode: luminosity;
   z-index: 10;
 }

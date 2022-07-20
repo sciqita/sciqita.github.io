@@ -268,14 +268,19 @@ transform: translate(-50%);
       background-size: 100vw;
     }
   }
-
+  @media only screen and (min-width:1240px){
+    .introImg{
+      background-position: center 20vh;
+      background-size: 100vw;
+    }
+  }
 
 body.p000{
   color:#68a;
 }
 section.story{
   max-width: unset;
-  padding: 100px 0;
+  padding: 0;
 }
 .storyBg{
   width: 100%;
@@ -429,7 +434,7 @@ input[type="radio"]:checked + .radioBg label img::after{
     white-space: nowrap;
     font-weight: 400;
     /*border-right: 2px solid transparent;*/
-    animation: typing 3s steps(100), caret 0.5s steps(1) infinite;
+    animation: typing 5s steps(100), caret 0.5s steps(1) infinite;
   }
   @keyframes typing {
     from {

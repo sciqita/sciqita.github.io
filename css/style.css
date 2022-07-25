@@ -427,6 +427,11 @@ section{
     background-color: #17416a;
 }
 
+@media only screen and (max-width:1240px){
+  .content-bg{background-attachment: unset;
+    background-position: center;
+    background-repeat: no-repeat;}
+}
 @media only screen and (max-width:750px){
 	body{
 		min-width:unset;
@@ -444,15 +449,8 @@ section{
   .NOTHING{ padding-left: 3em;
     background-attachment:scroll;}
   #titlechart{padding: 0 1em;}
-}
-@media only screen and (max-width:1240px){
-  .content-bg{background-attachment: unset;
-    background-position: center;
-    background-repeat: no-repeat;}
-  .content-bg-filter{ background-color: #fff; }
-}
-@media only screen and (max-width:750px){
-  .content-bg{ }
+  .content-bg-filter{mix-blend-mode: darken;}
+  .content-bg{filter: none;}
 }
 .pc{ display:block!important;}
 .sp{ display:none!important;}

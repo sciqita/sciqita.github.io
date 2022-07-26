@@ -332,6 +332,10 @@ section{
   padding: 1em;
   font-size: 1.7em;
   text-align: right;
+  transition: .3s ease-out;
+  }
+  .content-type:hover div.content-item div.content-item-txt {
+    right:-0.4em;
   }
 
 /*about*/
@@ -430,7 +434,10 @@ section{
 @media only screen and (max-width:1240px){
   .content-bg{background-attachment: unset;
     background-position: center;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+    filter: none;
+    }
+    .content-bg-filter{mix-blend-mode: darken;}
 }
 @media only screen and (max-width:750px){
 	body{
@@ -449,8 +456,6 @@ section{
   .NOTHING{ padding-left: 3em;
     background-attachment:scroll;}
   #titlechart{padding: 0 1em;}
-  .content-bg-filter{mix-blend-mode: darken;}
-  .content-bg{filter: none;}
 }
 .pc{ display:block!important;}
 .sp{ display:none!important;}
